@@ -1,7 +1,7 @@
 import "~/styles/globals.css";
-
 import { type Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Anuphan, Noto_Sans_Thai_Looped } from "next/font/google";
+import { cn } from "../lib/utils";
 
 export const metadata: Metadata = {
   title: "Create T3 App",
@@ -9,17 +9,25 @@ export const metadata: Metadata = {
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
-const geist = Geist({
-  subsets: ["latin"],
-  variable: "--font-geist-sans",
-});
+
 
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${geist.variable}`}>
-      <body>{children}</body>
+    <html
+      lang="th"
+      className={cn(
+        // anuphan.variable,
+        // notoThai.variable,
+        "relative mx-auto min-h-screen w-full max-w-full sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl overscroll-none "
+      )}
+    >
+      <body
+        className=""
+      >
+        {children}
+      </body>
     </html>
   );
 }
