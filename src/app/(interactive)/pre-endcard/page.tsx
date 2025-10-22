@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import YellowButtonSemibold from "~/component/yellow_button_semibold";
-import { toJpeg } from "html-to-image";
+import * as htmlToImage from "html-to-image";
 import YellowButton from "~/component/yellow_button";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";

@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import YellowButtonSemibold from "~/component/yellow_button_semibold";
-import { toJpeg } from "html-to-image";
+import * as htmlToImage from "html-to-image";
 import YellowButton from "~/component/yellow_button";
 
 
@@ -18,7 +18,7 @@ export default function Page() {
         const maxAttempts = 20;
     
         for (let i = 0; dataUrl.length < minDataLength && i < maxAttempts; ++i) {
-          dataUrl = await toJpeg(element, { quality: 0.95 });
+          dataUrl = await htmlToImage.toJpeg(element, { quality: 0.95 });
         }
     
         return dataUrl;
