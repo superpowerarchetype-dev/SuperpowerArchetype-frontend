@@ -54,7 +54,7 @@ export default function Page() {
         <motion.div 
             
             className={cn(notoThai.className, 
-            "absolute flex flex-col flex-1 min-h-screen w-full text-[#0A0A0A] bg-[#FFFFFF] overflow-visible overflow-y-scroll overflow-x-hidden")}
+            "absolute flex flex-col flex-1 min-h-screen w-full text-[#0A0A0A] bg-[#F0F0F0] overflow-visible overflow-y-scroll overflow-x-hidden")}
             >
             <div
                 className="flex flex-col flex-1 min-h-screen w-full text-[#FFFFFF] bg-[#2C2C2C] px-[20px]"
@@ -124,7 +124,7 @@ export default function Page() {
                 <h1 id="result_quote" className={cn(rubik.className,"text-[16px] font-semibold")}>"Meme It, Beam It!"</h1>
                 <div className="border-[2px] border-[#0A0A0A] w-full items-center mt-[20px] rounded-[3px]">
                     <h1 className="py-[10px] bg-[#000000] text-white text-center">ตัวตนของคุณ (Core Identity)</h1>
-                    <div className="px-[20px]">
+                    <div className="px-[20px] bg-white">
 
                         <h1 className="text-[16px] font-medium pt-[20px] text-[#0A0A0A] text-left">คำอธิบายตัวตน</h1>
                         <div className={cn(anuphan.className,"text-[14px] pt-[8px] text-[#0A0A0A] text-left")}>
@@ -154,7 +154,7 @@ export default function Page() {
 
                 <div className="border-[2px] border-[#0A0A0A] w-full items-center mt-[20px] rounded-[3px]">
                     <h1 className="py-[10px] bg-[#000000] text-white text-center">ธาตุ (Element)</h1>
-                    <div className="px-[20px]">
+                    <div className="px-[20px] bg-white">
 
                         <div className="flex flex-row gap-x-[5px] pt-[20px]">
                             <h1 className="text-[17px] font-semibold  text-[#0A0A0A] text-left align-middle">ลม</h1>
@@ -178,11 +178,11 @@ export default function Page() {
                 </div>
 
                 <div className="border-[2px] border-[#0A0A0A] w-full items-center mt-[20px] rounded-[3px]">
-                    <div className="border-b-[2px] pb-[20px] border-[#0A0A0A]">
+                    <div className="border-b-[2px] pb-[20px] border-[#0A0A0A] bg-white">
                         <h1 className="py-[10px] bg-[#000000] text-white text-center">พลังวิเศษของคุณ (Superpower)</h1>
-                        <div className="px-[20px]">
+                        <div className="px-[20px] ">
 
-                            <div className="flex flex-col gap-x-[5px] pt-[20px]">
+                            <div className="flex flex-col gap-x-[5px] pt-[20px] ">
                                 <h1 className="text-[16px] font-medium  text-[#0A0A0A] text-left align-middle">พลังพิเศษ</h1>
                                 <Image
                                     src="/img/superpower_the_spark.webp"
@@ -201,7 +201,7 @@ export default function Page() {
                             </div>
                         </div>
                     </div>
-                    <div className="px-[20px] border-b-[2px] pb-[20px] border-[#0A0A0A]">
+                    <div className="px-[20px] border-b-[2px] pb-[20px] border-[#0A0A0A] bg-white">
 
                         <div className="flex flex-col gap-x-[5px] pt-[20px]">
                             <h1 className="text-[16px] font-medium  text-[#0A0A0A] text-left align-middle">จุดแข็ง (Strengths)</h1>
@@ -242,7 +242,7 @@ export default function Page() {
                         
  
                     </div>
-                    <div className="px-[20px] border-b-[2px] pb-[20px] border-[#0A0A0A]">
+                    <div className="px-[20px] border-b-[2px] pb-[20px] border-[#0A0A0A] bg-white">
 
                         <div className="flex flex-col gap-x-[5px] pt-[20px]">
                             <h1 className="text-[16px] font-medium  text-[#0A0A0A] text-left align-middle">ด้านที่ต้องพัฒนา (Growth Edge)</h1>
@@ -278,7 +278,7 @@ export default function Page() {
                         </div>
 
                     </div>
-                    <div className="px-[20px] ">
+                    <div className="px-[20px] bg-white">
 
                         <div className="flex flex-col   gap-x-[5px] pt-[20px]">
                             <h1 className="text-[16px] text-[#0A0A0A]  align-middle">ทักษะในด้านต่างๆ (Skills Graph)</h1>
@@ -300,16 +300,16 @@ export default function Page() {
 
                 </div>
 
-                <div className="border-[2px] border-[#0A0A0A] w-full items-center mt-[20px] rounded-[3px]">
+                <div className="border-[2px] border-[#0A0A0A] w-full items-center mt-[20px] rounded-[3px] ">
                     <h1 className="py-[10px] bg-[#000000] text-white text-center">พันธมิตรของคุณ (Alliance)</h1>
-                    <div className="px-[20px] border-b-[2px] border-[#0A0A0A]">
+                    <div className="px-[20px] border-b-[2px] border-[#0A0A0A] bg-white">
 
-                        <div className="flex flex-row gap-x-[5px] pt-[20px]">
+                        <div className="flex flex-row gap-x-[5px] pt-[20px] ">
                             <h1 className="text-[16px] font-medium  text-[#0A0A0A] text-left align-middle">พันธมิตรในอุดมคติ</h1>
                            
                         </div>
 
-                        <div className="pt-[20px]">
+                        <div className="pt-[20px] ">
                             <h1 className={cn(rubik.className,"text-[18px]")}>The Flame</h1>
                             <Image
                                 src="/img/strength_the_flame.webp"
@@ -351,7 +351,7 @@ export default function Page() {
  
                     </div>
 
-                    <div className="px-[20px]">
+                    <div className="px-[20px] bg-white">
 
                         <div className="flex flex-row gap-x-[5px] pt-[20px]">
                             <h1 className="text-[16px] font-medium  text-[#0A0A0A] text-left align-middle">จุดที่ต้องระวัง</h1>
@@ -398,9 +398,9 @@ export default function Page() {
 
                         </div>
                 </div>
-                <div className="border-[2px] border-[#0A0A0A] w-full items-center mt-[20px] pb-[20px] rounded-[3px]">
+                <div className="border-[2px] border-[#0A0A0A] w-full items-center mt-[20px] pb-[20px] rounded-[3px] bg-white">
                     <h1 className="py-[10px] bg-[#000000] text-white text-center">พื้นที่ของคุณ (Ideal Environment)</h1>
-                    <div className="px-[20px]">
+                    <div className="px-[20px] ">
 
                         <h1 className="text-[16px] font-medium pt-[20px] text-[#0A0A0A] text-left">คุณจะเฉิดฉายในสถานการณ์แบบนี้</h1>
                         <div className={cn(anuphan.className,"text-[14px] pt-[8px] text-[#0A0A0A] text-left")}>
@@ -420,9 +420,9 @@ export default function Page() {
                     </div>
                 </div>
 
-                <div className="border-[2px] border-[#0A0A0A] w-full items-center mt-[20px] pb-[20px] rounded-[3px]">
+                <div className="border-[2px] border-[#0A0A0A] w-full items-center mt-[20px] pb-[20px] rounded-[3px] bg-white">
                     <h1 className="py-[10px] bg-[#000000] text-white text-center">บทบาทและอาชีพในขบวนการเคลื่อนไหว</h1>
-                    <div className="px-[20px]">
+                    <div className="px-[20px] ">
 
                         <h1 className="text-[16px] font-medium pt-[20px] text-[#0A0A0A] text-left">ผู้จุดประกาย</h1>
                         <div className={cn(anuphan.className,"text-[14px] pt-[8px] text-[#0A0A0A] text-left")}>
