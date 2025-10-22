@@ -12,7 +12,7 @@ import { useRouter } from "next/navigation";
 
 function CalScore() {
     let the_flame = 0
-    let the_guardain = 0
+    let the_guardian = 0
     let the_seeder = 0
     let the_echo = 0
     let the_spark = 0
@@ -22,7 +22,7 @@ function CalScore() {
     if (Q1 === 'A') {
         the_flame += 1
     } else if (Q1 === 'B') {
-        the_guardain += 1
+        the_guardian += 1
     } else if (Q1 == 'C') {
         the_seeder += 1
     }
@@ -47,7 +47,7 @@ function CalScore() {
 
     const Q4 = localStorage.getItem('Q4')
     if (Q4 === 'A') {
-        the_guardain += 1
+        the_guardian += 1
     } else if (Q4 === 'B') {
         the_flame += 1
     } else if (Q4 == 'C') {
@@ -58,7 +58,7 @@ function CalScore() {
     if (Q5 === 'A') {
         the_echo += 1
     } else if (Q5 === 'B') {
-        the_guardain += 1
+        the_guardian += 1
     } else if (Q5 == 'C') {
         the_flame += 1
     }
@@ -67,7 +67,7 @@ function CalScore() {
     if (Q6 === 'A') {
         the_spark += 1
     } else if (Q6 === 'B') {
-        the_guardain += 1
+        the_guardian += 1
     } else if (Q6 == 'C') {
         the_echo += 1
     }
@@ -76,7 +76,7 @@ function CalScore() {
     if (Q7 === 'A') {
         the_echo += 1
     } else if (Q7 === 'B') {
-        the_guardain += 1
+        the_guardian += 1
     } else if (Q7 == 'C') {
         the_spark += 1
     }
@@ -110,7 +110,7 @@ function CalScore() {
 
     const Q11 = localStorage.getItem('Q11')
     if (Q11 === 'A') {
-        the_guardain += 1
+        the_guardian += 1
     } else if (Q11 === 'B') {
         the_spark += 1
     } else if (Q11 == 'C') {
@@ -126,8 +126,8 @@ function CalScore() {
         the_spark += 1
     }
 
-    const archetypes = [the_architect,the_echo,the_flame,the_guardain,the_seeder,the_spark]
-    const archetypes_name = ["the_architect","the_echo","the_flame","the_guardain","the_seeder","the_spark"]
+    const archetypes = [the_architect,the_echo,the_flame,the_guardian,the_seeder,the_spark]
+    const archetypes_name = ["the_architect","the_echo","the_flame","the_guardian","the_seeder","the_spark"]
 
     const max_score = Math.max(...archetypes)
 

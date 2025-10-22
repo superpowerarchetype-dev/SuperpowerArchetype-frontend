@@ -25,7 +25,7 @@ export default function Page() {
           lines: ["คนที่กล้าจุดไฟแรก", "แม้จะต้องเผชิญหน้าความกลัวคนเดียว"],
         },
         {
-            id: "the_guardain",
+            id: "the_guardian",
             lines: ["คนที่ยอมลำบากเพื่อให้คนอื่นรอด", "โดยไม่เคยเรียกร้องคำขอบคุณ"],
           },
         {
@@ -47,7 +47,7 @@ export default function Page() {
         "the_architect",
         "the_echo",
         "the_flame",
-        "the_guardain",
+        "the_guardian",
         "the_seeder",
         "the_spark",
       ];
