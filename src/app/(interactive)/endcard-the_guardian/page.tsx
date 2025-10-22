@@ -6,49 +6,55 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import YellowButtonSemibold from "~/component/yellow_button_semibold";
-import * as htmlToImage from "html-to-image";
 import YellowButton from "~/component/yellow_button";
+import { useRef } from "react";
 
 
 
 export default function Page() {
-    const convertImage = async (element: HTMLElement) => {
-        let dataUrl = "";
-        const minDataLength = 150000;
-        const maxAttempts = 20;
-    
-        for (let i = 0; dataUrl.length < minDataLength && i < maxAttempts; ++i) {
-          dataUrl = await htmlToImage.toJpeg(element, { quality: 0.95 });
-        }
-    
-        return dataUrl;
-      };
+    const exportedRef = useRef<HTMLImageElement | null>(null);
 
+    const convertImage = async (element: HTMLElement) => {
+      // Dynamic import to avoid SSR issues
+      const htmlToImage = await import("html-to-image");
+      let dataUrl = "";
+      const minDataLength = 150000;
+      const maxAttempts = 20;
+  
+      for (let i = 0; dataUrl.length < minDataLength && i < maxAttempts; ++i) {
+        dataUrl = await htmlToImage.toJpeg(element, { quality: 0.95 });
+      }
+  
+      return dataUrl;
+    };
+  
     const shareImage = async () => {
-        // const exportedWords = document.getElementById("exported");
-        const exportedImage = document.getElementById("sharable_result");
-        if (!exportedImage) return;
-    
-        const dataUrl = await convertImage(exportedImage);
-    
-        const dataBlob = await (await fetch(dataUrl)).blob();
-        if (!dataBlob) return;
-    
-        const image = new File([dataBlob], "sharable_the_guardian.png", {
-            type: dataBlob.type,
-            });
-            const shareData: ShareData = {
-            title: "Activerse",
-            text: "คุณคือ...",
-            files: [image],
-            };
-            try {
-            void navigator.share(shareData);
-            console.log("Shared successfully");
-            } catch (err) {
-            console.log("Error");
-            }
+      if (!exportedRef.current) {
+        console.log(exportedRef.current)
+        return};
+  
+      const dataUrl = await convertImage(exportedRef.current);
+  
+      const dataBlob = await (await fetch(dataUrl)).blob();
+      if (!dataBlob) return;
+  
+      const image = new File([dataBlob], "sharable_the_spark.png", {
+        type: dataBlob.type,
+      });
+  
+      const shareData: ShareData = {
+        title: "Activerse",
+        text: "คุณคือ...",
+        files: [image],
       };
+  
+      try {
+        await navigator.share(shareData);
+        console.log("Shared successfully");
+      } catch (err) {
+        console.log("Error sharing", err);
+      }
+    };
     return (
         
         <motion.div 
@@ -91,6 +97,7 @@ export default function Page() {
                         height={1000}
                         width={400}
                         alt="end card"
+                        ref={exportedRef}
                         id="sharable_result"
                         className="border-[2px]"
                     />
