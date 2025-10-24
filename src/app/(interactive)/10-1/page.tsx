@@ -9,9 +9,15 @@ import { ChevronLeft } from "lucide-react"
 import { anuphan } from "~/component/font"
 import { useState } from "react"
 import YellowButton from "~/component/yellow_button"
+import { FormService } from "~/app/service/FormService"
+import { FormMappers } from "~/app/service/FormMapper"
 
 export default function Page() {
+    async function submitForm() {
+    void FormService.createForm( await FormMappers.mapForm())
+    } 
   return (
+
     <div className={cn(notoThai.className,
         "flex flex-col min-h-screen w-full  text-[#0A0A0A] px-[20px]")}>
         <motion.div
@@ -111,7 +117,7 @@ export default function Page() {
             transition={{ duration: 1, delay: 6 }}
             className="flex flex-col py-[20px] h-[88px] w-full items-center z-10">
             
-                <Link href={`/pre-endcard`} className="h-[48px] w-full">
+                <Link href={`/pre-endcard`} className="h-[48px] w-full" onClick={submitForm}>
                 <YellowButton text="ดูผลลัพธ์" />
                 </Link>
         </motion.div>

@@ -6,9 +6,15 @@ import { motion } from "framer-motion";
 import WhiteButton from "~/component/white_button";
 import { cn } from "~/lib/utils";
 import { anuphan, notoThai } from "~/component/font";
+import { useEffect } from "react";
+import { FormService } from "~/app/service/FormService";
+import { FormMappers } from "~/app/service/FormMapper";
 
 export default function Page() {
   const duration = 0.4;
+
+
+    
 
   return (
     <div
@@ -112,8 +118,8 @@ export default function Page() {
             animate={{ opacity: 1 }}
             transition={{ duration: duration, delay: 1 }}
             className="flex flex-col py-[20px] h-[88px] w-full items-center z-10">
-            <Link href="/9-1" className="h-[48px] w-full">
-            <WhiteButton text="ถัดไป" />
+            <Link href="/9-1" className="h-[48px] w-full" >
+                <WhiteButton text="ถัดไป" />
             </Link>
         </motion.div>
       </motion.div>
