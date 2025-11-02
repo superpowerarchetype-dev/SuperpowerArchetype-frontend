@@ -70,7 +70,13 @@ export default function Page() {
                     alt="logo amnesty x artist"
                     className="self-center "
                 ></Image>
-                <h1 className="text-[14px] font-anuphan">What’s Your World-Saving Superpower?</h1>
+                <Image
+                    src="/img/what_is_your.webp"
+                    width={200}
+                    height={48}
+                    alt="logo amnesty x artist"
+                    className="self-center "
+                ></Image>
 
             </div>
             </motion.div>
