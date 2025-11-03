@@ -66,7 +66,7 @@ const Sounds = () => {
     // 👇 เพิ่มส่วนนี้: ปรับ volume ถ้าเป็น maintheme
     let finalVolume = nextBackgroundVolume ?? defaultBackingTrackVolume;
     if (backingTrackSound === "/sound/Background_maintheme.mp3") {
-      finalVolume = 0.25;
+      finalVolume = 0.1;
     }
 
     if (
