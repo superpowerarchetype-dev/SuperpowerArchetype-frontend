@@ -17,7 +17,7 @@ export const scenePageMap = {
   "Q10": "/sound/Background_maintheme.mp3",
   "Q11": "/sound/Background_maintheme.mp3",
   "5": "/sound/Background_maintheme.mp3",
-  "7": "/sound/Background_morning.mp3",
+  "72": "/sound/Background_morning.mp3",
   "Q12": "/sound/Background_morning.mp3",
   "Q13": "/sound/Background_morning.mp3",
   "8": "/sound/Background_morning.mp3",
@@ -30,17 +30,100 @@ export const scenePageMap = {
     // "4": "/sound/sadNostalgic.mp3",
   } as const;
   
-  export const soundPageMap: Record<
-    string,
-    {
-      soundEffect?: {
-        sound: string;
-        loop?: boolean;
-        volume?: number;
-      };
-      backgroundVolume?: number;
+export const soundPageMap: Record<
+  string,
+  {
+    soundEffect?: {
+      sound: string;
+      loop?: boolean;
+      volume?: number;
+    };
+    backgroundVolume?: number;
+  }
+> = {
+  "1-4" : { 
+    soundEffect : {
+      sound:"/sound/sound_1-4.mp3",
+      loop: false,
     }
-  > = {
-    
-  };
+  },
+  "Q2" : { 
+    soundEffect : {
+      sound:"/sound/sound_Q2.mp3",
+      loop: false,
+      volume:40
+    }
+  },  
+  "Q3" : { 
+    soundEffect : {
+      sound:"/sound/sound_Q3.mp3",
+      loop: false,
+      // volume:40
+    }
+  },
+  "3-4" : { 
+    soundEffect : {
+      sound:"/sound/sound_3-4.mp3",
+      loop: false,
+      // volume:40
+    }
+  },
+  "4-2" : { 
+    soundEffect : {
+      sound:"/sound/sound_4-2.mp3",
+      loop: false,
+      // volume:40
+    }
+  },
+  "4-3" : { 
+    soundEffect : {
+      sound:"/sound/sound_4-3.mp3",
+      loop: false,
+      // volume:40
+    }
+  },
+  "41-4" : { 
+    soundEffect : {
+      sound:"/sound/sound_41-4.mp3",
+      loop: false,
+      volume:50
+    }
+  },
+  "Q9" : { 
+    soundEffect : {
+      sound:"/sound/sound_Q9.mp3",
+      loop: false,
+      volume:50
+    }
+  },
+  "5-2" : { 
+    soundEffect : {
+      sound:"/sound/sound_5-2.mp3",
+      loop: false,
+      volume:50
+    }
+  },
+  "Q11" : { 
+    soundEffect : {
+      sound:"/sound/sound_Q11.mp3",
+      loop: false,
+      volume:50
+    }
+  },
+  "7-1" : { 
+    soundEffect : {
+      sound:"/sound/sound_7-1.mp3",
+      loop: false,
+      volume:50
+    }
+  },
+  "9-1" : { 
+    soundEffect : {
+      sound:"/sound/sound_9-1.mp3",
+      loop: false,
+      volume:50
+    }
+  },
+};
+
   
