@@ -37,6 +37,11 @@ const Sounds = () => {
         setBackingTrackSound(nextSound);
       }, fadeDuration);
     }
+    if (backingTrackSound === "/sound/Background_maintheme.mp3") {
+      setTimeout(() => {
+        setBackingTrackVolume(0.1);
+      }, fadeDuration);
+    }
   }, [scene]);
 
   useEffect(() => {
@@ -89,7 +94,8 @@ const Sounds = () => {
       {backingTrackSound && (
         <AudioPlayer
           src={backingTrackSound}
-          volume={backingTrackVolume}
+          volume={backingTrackSound === "/sound/Background_maintheme.mp3" 
+            ? 0.1 : backingTrackVolume}
           loop
           preload
           ref={backingTrackRef}
