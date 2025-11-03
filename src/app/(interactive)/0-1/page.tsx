@@ -104,7 +104,7 @@ export default function Page() {
                     duration: duration,
                     delay: 1.5,
                 }}
-                className="flex flex-col pt-[12%] items-center text-[14px] font-light z-10 font-anuphan">
+                className="flex flex-col pt-max-[12%] items-center text-[14px] font-light z-10 font-anuphan">
                 <h1 className="font-anuphan">ในทุกการเคลื่อนไหว มีฮีโร่ที่ซ่อนอยู่</h1>
                 <h1 className="font-anuphan">บางคนคือไฟที่ลุกโชนท้าทายอำนาจ</h1>
                 <h1 className="font-anuphan">บางคนคือเสียงสะท้อนที่ขยายความจริง</h1>
@@ -121,7 +121,7 @@ export default function Page() {
                         duration: duration,
                         delay: 1.5,
                     }}
-                    className="flex flex-col pt-[20%] pb-[20px] w-full items-center z-10">
+                    className="flex flex-col pt-max-[20%] pb-[20%] w-full items-center z-10">
                     <h1 className={cn(
                         notoThai.className,
                         "py-[20px] font-notoThai"
