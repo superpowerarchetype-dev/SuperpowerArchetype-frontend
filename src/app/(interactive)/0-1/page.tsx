@@ -33,14 +33,15 @@ export default function Page() {
                     delay: 1.5,
                 
             }}
-            className="absolute h-screen"
+            className="absolute h-screen w-full"
             >
                 <Image
                     src="/img/BG_Welcome.webp"
                     alt="welcome bg"
-                    width={450}
-                    height={720}
-                    className="h-full "
+                    // width={450}
+                    // height={720}
+                    fill
+                    className="h-full fill object-cover"
                 >
                 </Image>
             </motion.div>
@@ -121,7 +122,7 @@ export default function Page() {
                         duration: duration,
                         delay: 1.5,
                     }}
-                    className="flex flex-col pt-max-[20%] pb-[20%] w-full items-center z-10">
+                    className="flex flex-col pb-[20px] py-min-[15px] py-max-[20px] w-full items-center z-10">
                     <h1 className={cn(
                         notoThai.className,
                         "py-[20px] font-notoThai"
