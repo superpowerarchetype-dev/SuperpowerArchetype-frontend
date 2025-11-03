@@ -7,11 +7,72 @@ import Image from "next/image";
 import Link from "next/link";
 import YellowButtonSemibold from "~/component/yellow_button_semibold";
 import YellowButton from "~/component/yellow_button";
-import { useRef } from "react";
-
+import { useEffect, useRef, useState } from "react";
+import Ranking from "~/component/ranking";
 
 
 export default function Page() {
+    const [first,setFirst] = useState<string>("")
+    const [second,setSecond] = useState<string>("")
+    const [third,setThird] = useState<string>("")
+
+    const [theFlameScore,setTheFlameScore] = useState<number>()
+    const [theGuardianScore,setTheGuardianScore] = useState<number>()
+    const [theSeederScore,setTheSeederScore] = useState<number>()
+    const [theSparkScore,setTheSparkScore] = useState<number>()
+    const [theEchoScore,setTheEchoScore] = useState<number>()
+    const [theArchitectScore,setTheArchitectScore] = useState<number>()
+    
+    
+
+    useEffect(()=> {
+        setFirst(localStorage.getItem("win_archetype") ?? "")
+        console.log(first)
+        },[first])
+
+    useEffect(() => {
+        const storedFlame = Number(localStorage.getItem("the_flame_score")) || 0;
+        const storedGuardian = Number(localStorage.getItem("the_guardian_score")) || 0;
+        const storedSeeder = Number(localStorage.getItem("the_seeder_score")) || 0;
+        const storedSpark = Number(localStorage.getItem("the_spark_score")) || 0;
+        const storedEcho = Number(localStorage.getItem("the_echo_score")) || 0;
+        const storedArchitect = Number(localStorage.getItem("the_architect_score")) || 0;
+    
+        setTheFlameScore(storedFlame);
+        setTheGuardianScore(storedGuardian);
+        setTheSeederScore(storedSeeder);
+        setTheSparkScore(storedSpark);
+        setTheEchoScore(storedEcho);
+        setTheArchitectScore(storedArchitect);
+        }, []); 
+
+    useEffect(() => {
+        const scores = [
+            { name: "the_flame", score: theFlameScore ?? 0 },
+            { name: "the_guardian", score: theGuardianScore ?? 0 },
+            { name: "the_seeder", score: theSeederScore?? 0 },
+            { name: "the_spark", score: theSparkScore?? 0 },
+            { name: "the_echo", score: theEchoScore?? 0 },
+            { name: "the_architect", score: theArchitectScore?? 0 },
+        ];
+        const filtered = scores.filter(
+            (item) => item.name.toLowerCase() !== first.toLowerCase()
+          );
+        
+        // sort descending
+        const sorted = filtered.sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
+        const top2 = sorted.slice(0, 2);
+    
+        setSecond(top2[0]?.name ?? "");
+        setThird(top2[1]?.name ?? "");
+        }, [
+        theFlameScore,
+        theGuardianScore,
+        theSeederScore,
+        theSparkScore,
+        theEchoScore,
+        theArchitectScore,
+        ]);
     const exportedRef = useRef<HTMLImageElement | null>(null);
 
     const convertImage = async (element: HTMLElement) => {
@@ -118,8 +179,13 @@ export default function Page() {
             <motion.div
                 className="flex flex-col min-h-screen w-full overflow-y-scroll z-30 px-[20px] pb-[30px] items-center"
             >
-
-                <h1 className="text-[16px] pt-[40px]">รายงานวิเคราะห์เชิงลึก</h1>
+                <div className="w-full flex flex-col  items-center  bg-[#FFFFFF]  mt-[40px] my-[10px] rounded-[5px]">
+                    <h1 className="text-[16px] py-[20px] font-semibold text-[#0A0A0A]">3 อันดับตัวตนของคุณ</h1>
+                    <Ranking first={first} second={second} third={third}></Ranking>
+                </div>
+                <div className="w-full items-center  bg-[#000000] border  mt-[40px] my-[10px] rounded-[5px]">
+                    <h1 className="text-[16px] py-[10px] text-white text-center">รายงานวิเคราะห์เชิงลึก</h1>
+                </div>
                 <h1 className="text-[18px] font-semibold pt-[20px]">ผู้ปลูกสร้าง – Seeder</h1>
                 <Image
                     src="/img/character_the_seeder.webp"

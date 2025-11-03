@@ -13,7 +13,7 @@ export default function Page() {
     return (
         <div className={cn(
             anuphan.className,
-            "bg-black flex flex-col flex-1 h-screen px-[20px] text-white items-center font-anuphan -z-10"
+            "bg-black flex flex-col flex-1 h-screen px-[20px] text-[#D1D1D1] items-center font-anuphan -z-10"
         )
         }>
             {/* <div className="absolute flex h-[48px] w-full items-center">
@@ -111,8 +111,8 @@ export default function Page() {
                 <h1 className="font-anuphan">บางคนคือเสียงสะท้อนที่ขยายความจริง</h1>
                 <h1 className="font-anuphan">บางคนคือผู้วางแผน ผู้ปกป้อง ผู้ดูแล</h1>
 
-                <h1 className="pt-[10%] font-anuphan">ทุกพลังมีความหมาย</h1>
-                <h1 className="font-anuphan">และทุกพลังคือส่วนหนึ่งของการสร้างโลกที่ดีกว่า</h1>
+                <h1 className="pt-[10%] font-anuphan font-regular text-white">ทุกพลังมีความหมาย</h1>
+                <h1 className="font-anuphan font-regular text-white">และทุกพลังคือส่วนหนึ่งของการสร้างโลกที่ดีกว่า</h1>
             
             </motion.div>
                 <motion.div 
@@ -131,6 +131,11 @@ export default function Page() {
                     <Link href='/1-1' className="h-[60px] w-full">
                         <YellowButton text="เริ่มการเดินทาง"></YellowButton>
                     </Link>
+                    <h1 className={cn(
+                        anuphan.className,
+                        "py-[20px] font-notoThai text-[12px]"
+                    )}
+                    >กรุณาเปิดเสียง เพื่อเพิ่มอรรถรสในการเล่น</h1>
                 </motion.div>
             
             

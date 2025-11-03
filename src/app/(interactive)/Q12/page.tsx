@@ -140,9 +140,13 @@ function CalScore() {
         } else {
             localStorage.setItem(archetypes_name[i]!,"false")
         }
+        localStorage.setItem(`${archetypes_name[i]}_score` , String(archetypes[i]!))
     }
     console.log(`score: ${archetypes_name} | ${archetypes}`)
     console.log(`win_archetypes: ${win_archetypes}`)
+
+    
+
     return win_archetypes
 
 
