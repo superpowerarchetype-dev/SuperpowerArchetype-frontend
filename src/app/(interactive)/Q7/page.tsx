@@ -19,7 +19,7 @@ export default function Page() {
 
   const handleAnswer = (input:string) => {
     localStorage.setItem("Q7",input)
-    router.push("/4-3")
+    router.push("/41-3")
 
   }
 
@@ -112,7 +112,8 @@ export default function Page() {
                 onTouchEnd={() => setIsAHold(false)}    // mobile support
                 onClick={() => handleAnswer("A")}
             >
-                <h1>เรื่องของ<span className="font-bold"> "นักข่าวใต้ดิน" </span>ที่เสี่ยงชีวิตเปิดโปงความลับของ</h1>
+                <h1>เรื่องของ<span className="font-bold"> "นักข่าวใต้ดิน" </span></h1>
+                <h1>ที่เสี่ยงชีวิตเปิดโปงความลับของ</h1>
                 <h1>The Silence ถึงแม้จะถูกทำลายชื่อเสียง แต่ </h1>
                 <h1>"ความจริงมันคือสิ่งเดียวที่รักษาคนได้"</h1>
             </button>
@@ -132,7 +133,8 @@ export default function Page() {
                 onTouchEnd={() => setIsBHold(false)}    // mobile support
                 onClick={() => handleAnswer("B")}
             >
-                <h1>เรื่องของ<span className="font-bold"> "ชายผู้เสียสละ" </span>ที่ยอมสูญเสียหน้าที่การงานและ</h1>
+                <h1>เรื่องของ<span className="font-bold"> "ชายผู้เสียสละ" </span></h1>
+                <h1>ที่ยอมสูญเสียหน้าที่การงานและ</h1>
                 <h1>สมบัติส่วนตัว เพื่อพาผู้คนหนีรอดจากหมอก </h1>
                 <h1>"ถ้าคนที่เรารักไม่ปลอดภัย เราจะมีความสุขได้ยังไง"</h1>
             </button>

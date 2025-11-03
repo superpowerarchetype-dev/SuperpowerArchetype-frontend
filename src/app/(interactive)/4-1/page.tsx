@@ -27,7 +27,7 @@ export default function Page() {
       >
 
         <div className="absolute top-0 left-0 flex h-[48px] w-full items-center px-[20px]">
-            <Link href="/3-4" className="flex flex-row items-center text-white">
+            <Link href="/34-4" className="flex flex-row items-center text-white">
             <ChevronLeft color="white" />
             <h1
                 className={cn(anuphan.className, "text-white text-[15px] ml-1")}

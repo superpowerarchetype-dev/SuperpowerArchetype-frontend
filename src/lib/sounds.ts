@@ -61,7 +61,14 @@ export const soundPageMap: Record<
       // volume:40
     }
   },
-  "3-4" : { 
+  "3-3" : { 
+    soundEffect : {
+      sound:"/sound/sound_3-3.mp3",
+      loop: false,
+      // volume:40
+    }
+  },
+  "34-4" : { 
     soundEffect : {
       sound:"/sound/sound_3-4.mp3",
       loop: false,
@@ -75,7 +82,7 @@ export const soundPageMap: Record<
       // volume:40
     }
   },
-  "4-3" : { 
+  "41-3" : { 
     soundEffect : {
       sound:"/sound/sound_4-3.mp3",
       loop: false,
@@ -124,6 +131,14 @@ export const soundPageMap: Record<
       volume:50
     }
   },
+  "9-2" : { 
+    soundEffect : {
+      sound:"/sound/sound_5-2.mp3",
+      loop: false,
+      volume:20
+    }
+  },
+  
 };
 
   

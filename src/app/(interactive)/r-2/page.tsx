@@ -66,7 +66,7 @@ export default function Page() {
             ${localStorage.getItem("email")},
             `)
                        
-        router.push("/r-3")
+        router.push("/1-8")
       } else {
         console.log("Form validation failed.");
       }

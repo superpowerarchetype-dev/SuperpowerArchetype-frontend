@@ -12,7 +12,6 @@ const Sounds = () => {
   const defaultBackingTrackVolume = 0.75;
   const defaultSoundEffectVolume = 0.3;
   const scene = page.split("-")[0] as keyof typeof scenePageMap;
-  
 
   const [backingTrackSound, setBackingTrackSound] = useState<string>();
   const [backingTrackVolume, setBackingTrackVolume] = useState<number>(
@@ -43,12 +42,12 @@ const Sounds = () => {
   useEffect(() => {
     let nextSoundEffect: typeof soundEffect;
     let nextBackgroundVolume: number | undefined;
+
     if (page in soundPageMap) {
-      nextSoundEffect =
-        soundPageMap[page]?.soundEffect;
-      nextBackgroundVolume =
-        soundPageMap[page]?.backgroundVolume;
+      nextSoundEffect = soundPageMap[page]?.soundEffect;
+      nextBackgroundVolume = soundPageMap[page]?.backgroundVolume;
     }
+
     if (nextSoundEffect !== soundEffect) {
       if (soundEffectRef.current?.howler.playing()) {
         soundEffectRef.current?.howler.fade(
@@ -64,11 +63,16 @@ const Sounds = () => {
       }
     }
 
+    // 👇 เพิ่มส่วนนี้: ปรับ volume ถ้าเป็น maintheme
+    let finalVolume = nextBackgroundVolume ?? defaultBackingTrackVolume;
+    if (backingTrackSound === "/sound/Background_maintheme.mp3") {
+      finalVolume = 0.25;
+    }
+
     if (
-      !!nextBackgroundVolume ||
+      !!finalVolume ||
       backingTrackRef.current?.howler.volume() !== defaultBackingTrackVolume
     ) {
-      const finalVolume = nextBackgroundVolume ?? defaultBackingTrackVolume;
       backingTrackRef.current?.howler.fade(
         backingTrackVolume,
         finalVolume,
@@ -78,7 +82,7 @@ const Sounds = () => {
         setBackingTrackVolume(finalVolume);
       }, fadeDuration);
     }
-  }, [page]);
+  }, [page, backingTrackSound]); // 👈 เพิ่ม backingTrackSound ใน dependency
 
   return (
     <>

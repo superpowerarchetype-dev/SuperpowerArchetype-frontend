@@ -6,37 +6,27 @@ import { motion } from "framer-motion";
 import WhiteButton from "~/component/white_button";
 import { cn } from "~/lib/utils";
 import { anuphan, notoThai } from "~/component/font";
-import { useRouter } from "next/navigation";
-import { useEffect } from "react";
 
 export default function Page() {
   const duration = 0.8;
-  const router = useRouter()
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      router.push("/9-2"); // redirect ไป page /0-1
-    }, 5500);
-
-    return () => clearTimeout(timer);
-  }, [router]);
 
   return (
     <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ease: "easeOut", duration: duration, delay: 0 }}
+        // initial={{ opacity: 0 }}
+        // animate={{ opacity: 1 }}
+        // transition={{ease: "easeOut", duration: duration, delay: 0 }}
       className={cn(
         notoThai.className,
         "relative flex flex-col justify-between items-center w-full h-screen overflow-hidden text-[#F0F0F0] px-[20px]"
       )}
     >
-        <motion.div
-            initial={{ y : "0%" , opacity: 1}}
-            animate={{ y: "-30%" , opacity:0}}
-            transition={{
-                opacity:{delay:3.5,duration:1},
-                y:{delay:1,duration:2.5}
-            }}
+        {/* <motion.div
+            // initial={{ y : "0%" , opacity: 1}}
+            // animate={{ y: "-30%" , opacity:0}}
+            // transition={{
+            //     opacity:{delay:3.5,duration:1},
+            //     y:{delay:1,duration:2.5}
+            // }}
             
 
             className="z-5 absolute h-screen w-full top-[20%]"
@@ -49,7 +39,7 @@ export default function Page() {
                 priority
             />
 
-        </motion.div>
+        </motion.div> */}
       {/* ปุ่มย้อนกลับ */}
       <div className="absolute top-0 left-0 flex h-[48px] w-full items-center px-[20px] z-20">
         <Link href="/8-1" className="flex flex-row items-center ">
@@ -68,9 +58,9 @@ export default function Page() {
         className="flex flex-col justify-start items-left flex-1 w-full pt-[158px] z-10"
       >
         <motion.div 
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ease: "easeOut", duration: duration, delay: 4.5 }}
+            // initial={{ opacity: 0 }}
+            // animate={{ opacity: 1 }}
+            // transition={{ease: "easeOut", duration: duration, delay: 4.5 }}
             className="text-[15px]"
         
         >
@@ -79,9 +69,9 @@ export default function Page() {
         </motion.div>
 
         <motion.div 
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ease: "easeOut", duration: duration, delay: 5.5 }}
+            // initial={{ opacity: 0 }}
+            // animate={{ opacity: 1 }}
+            // transition={{ease: "easeOut", duration: duration, delay: 5.5 }}
             className="text-[15px]  pt-[20px]"
         >
             <h1>ความจริงที่ว่า The Silence ไม่ได้หายไปไหน</h1>
@@ -90,7 +80,7 @@ export default function Page() {
         <motion.div 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ease: "easeOut", duration: duration, delay: 6.5 }}
+            transition={{ease: "easeOut", duration: duration, delay: 1 }}
             className="text-[15px] pt-[20px]"
         >
             <h1>มันยังไม่ตาย... เช่นเดียวกับคุณ</h1>
@@ -99,7 +89,7 @@ export default function Page() {
         <motion.div 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ease: "easeOut", duration: duration, delay: 7.5 }}
+            transition={{ease: "easeOut", duration: duration, delay: 2 }}
             className="text-[15px] pt-[20px]"
         >
             <h1>และในวินาทีนั้น คุณก็เริ่มเข้าใจ...</h1>
@@ -111,7 +101,7 @@ export default function Page() {
       <motion.div
         initial={{opacity:0}}
         animate={{opacity:1}}
-        transition={{duration:duration,delay:6.5}}
+        transition={{duration:duration,delay:1}}
         className="z-5 absolute w-full h-screen -bottom-[35%]"
       >
             <Image
@@ -129,7 +119,7 @@ export default function Page() {
       <motion.div 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ease: "easeOut", duration: duration, delay: 7.5 }}
+        transition={{ease: "easeOut", duration: duration, delay: 2 }}
         className="flex flex-col py-[20px] h-[88px] w-full items-center z-10">
         <Link href="/10-1" className="h-[48px] w-full">
           <WhiteButton text="ถัดไป" />

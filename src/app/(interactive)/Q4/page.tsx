@@ -19,7 +19,7 @@ export default function Page() {
 
   const handleAnswer = (input:string) => {
     localStorage.setItem("Q4",input)
-    router.push("/3-4")
+    router.push("/34-4")
 
   }
 
