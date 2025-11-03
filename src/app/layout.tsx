@@ -10,14 +10,14 @@ import SoundToggle from "~/component/sound_toggle";
 export const metadata: Metadata = {
   title: "Activerse",
   description: "Resist The Silence",
-  icons: [{ rel: "icon", url: "/img/Logo.webp" }],
+  icons: [{ rel: "icon", url: "https://activerse.amnesty.or.th/img/Logo.webp" }],
   openGraph: {
     title: "Activerse",
-    description: "activerse project",
+    description: "Resist The Silence",
     url: "https://activerse.amnesty.or.th",
     images: [
       {
-        url: "/img/Logo.webp", // OG image path
+        url: "https://activerse.amnesty.or.th/img/Logo.webp", // OG image path
         width: 1200,
         height: 630,
         alt: "Activerse OG Image",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Activerse",
     description: "Resist The Silence",
-    images: ["/img/Logo.webp"],
+    images: ["https://activerse.amnesty.or.th/img/Logo.webp"],
   },
 };
 
