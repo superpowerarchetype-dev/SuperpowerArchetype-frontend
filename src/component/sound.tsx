@@ -27,6 +27,7 @@ const Sounds = () => {
   }>();
 
   const fadeDuration = 1000;
+  const fadeDurationSFX = 10;
 
   useEffect(() => {
     const nextSound = scenePageMap[scene];
@@ -53,11 +54,11 @@ const Sounds = () => {
         soundEffectRef.current?.howler.fade(
           soundEffectRef.current?.howler.volume() ?? defaultSoundEffectVolume,
           0,
-          fadeDuration,
+          fadeDurationSFX,
         );
         setTimeout(() => {
           setSoundEffect(nextSoundEffect);
-        }, fadeDuration);
+        }, fadeDurationSFX);
       } else {
         setSoundEffect(nextSoundEffect);
       }

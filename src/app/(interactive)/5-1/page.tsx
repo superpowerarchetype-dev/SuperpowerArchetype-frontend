@@ -16,7 +16,7 @@ export default function Page() {
   useEffect(() => {
     const timer = setTimeout(() => {
       router.push("/5-2"); 
-    }, 3000);
+    }, 4000);
 
     return () => clearTimeout(timer);
   }, [router]);

@@ -14,7 +14,7 @@ export default function Page() {
     useEffect(() => {
         const timer = setTimeout(() => {
           router.push("/1-3"); // redirect ไป page /0-1
-        }, 1000);
+        }, 2000);
     
         return () => clearTimeout(timer);
       }, [router]);    return (

@@ -99,7 +99,7 @@ export default function Page() {
             animate={{ opacity: 1 }}
             transition={{ duration: duration, delay: 1 }}
             className="flex flex-col py-[20px] h-[88px] w-full items-center z-10">
-            <Link href="/7-2" className="h-[48px] w-full">
+            <Link href="/72-2" className="h-[48px] w-full">
             <WhiteButton text="ถัดไป" />
             </Link>
         </motion.div>

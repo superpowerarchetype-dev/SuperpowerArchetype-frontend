@@ -185,7 +185,7 @@ export default function Page() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.4, delay: 0 }}
             className="absolute top-0 left-0 flex h-[48px] w-full items-center px-[20px] z-15">
-        <Link href="7-2" className="flex flex-row items-center text-[#0A0A0A]">
+        <Link href="/72-2" className="flex flex-row items-center text-[#0A0A0A]">
           <ChevronLeft color="#0A0A0A" />
           <h1
             className={cn(anuphan.className, "text-[15px] ml-1")}
