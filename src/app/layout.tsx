@@ -9,8 +9,28 @@ import SoundToggle from "~/component/sound_toggle";
 
 export const metadata: Metadata = {
   title: "Activerse",
-  description: "activerse project",
+  description: "Resist The Silence",
   icons: [{ rel: "icon", url: "/img/Logo.webp" }],
+  openGraph: {
+    title: "Activerse",
+    description: "activerse project",
+    url: "https://activerse.amnesty.or.th",
+    images: [
+      {
+        url: "/img/Logo.webp", // OG image path
+        width: 1200,
+        height: 630,
+        alt: "Activerse OG Image",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Activerse",
+    description: "Resist The Silence",
+    images: ["/img/Logo.webp"],
+  },
 };
 
 
