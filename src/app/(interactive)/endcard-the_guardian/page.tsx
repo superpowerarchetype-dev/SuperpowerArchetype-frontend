@@ -297,7 +297,7 @@ export default function Page() {
                             <div className={cn(anuphan.className,"text-[14px] pt-[3px] text-[#0A0A0A] text-left")}>
                                 <h1>เมื่อทีมเกิดความขัดแย้งรุนแรง</h1>
                                 <h1>คุณคือคนกลางที่จะเข้ามาไกล่เกลี่ยและสร้างกฎกติกาเพื่อ</h1>
-                                <h1>ให้ทุกคนกลับมาคุยกันอย่างสันติได</h1>
+                                <h1>ให้ทุกคนกลับมาคุยกันอย่างสันติได้</h1>
                             </div>
                             <h1 className={cn(anuphan.className,"text-[17px] font-medium pt-[12px] text-[#0A0A0A] text-left align-middle")}>เยือกเย็นในภาวะวิกฤต</h1>
                             <div className={cn(anuphan.className,"text-[14px] pt-[3px] text-[#0A0A0A] text-left")}>
