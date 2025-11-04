@@ -59,9 +59,9 @@ export default function Page() {
         <h1 className="font-semibold">"The Silence" มาถึงเมื่อไหร่</h1>
 
         <h1 className="pt-[5%] text-[15px]">
-          แต่มันค่อย ๆ แทรกซึมเข้ามาในวัน
+          แต่มันค่อย ๆ แทรกซึมเข้ามาในวันที่
         </h1>
-        <h1 className="text-[15px]">เมืองอ่อนแอที่สุด</h1>
+        <h1 className="text-[15px]">บ้านเมืองอ่อนแอที่สุด</h1>
         <h1 className="text-[15px]">
           วันที่ผู้คนเหนื่อยล้าจากความวุ่นวายที่ไร้จุดจบ
         </h1>
