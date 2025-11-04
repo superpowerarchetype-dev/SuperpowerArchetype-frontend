@@ -51,7 +51,7 @@ export default function Page() {
                 className="absolute top-0 left-0 h-screen flex-1 w-full overflow-hidden">
                 <motion.div
                 initial={{ x: "-25%" }}  // ปรับให้เริ่มนอกกรอบ + padding
-                animate={{ x: "-55%" }}
+                animate={{ x: "-50%" }}
                 transition={{delay:0, duration: 6, ease: "easeInOut" }}
                 className="absolute top-0 left-0 h-full flex"
                 >
@@ -74,7 +74,7 @@ export default function Page() {
       </div> */}
       
       <div className="relative flex flex-col flex-1 pt-[68px]">
-            <div className="flex flex-col justify-center pt-[200px] py-[20px] text-[15px] z-10 w-full">
+            <div className="flex flex-col justify-center pt-[40px] pb-[40%] py-[20px] text-[15px] z-10 w-full">
             
                 <motion.div
                     initial={{ opacity: 0 }}
