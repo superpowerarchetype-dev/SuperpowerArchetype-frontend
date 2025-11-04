@@ -68,7 +68,7 @@ export default function Page() {
       >
 
         <h1 className="text-[17px] font-semibold">ภารกิจนี้มันใหญ่มาก</h1>
-        <h1 className="text-[17px] font-semibold ">ภารกิจนี้มันใหญ่มาก ทุกคนต้องแบ่งหน้าที่กัน... </h1>
+        <h1 className="text-[17px] font-semibold ">ทุกคนต้องแบ่งหน้าที่กัน... </h1>
         <h1 className="text-[17px] font-semibold ">คุณอยากทำหน้าที่ไหน?</h1>
       
 

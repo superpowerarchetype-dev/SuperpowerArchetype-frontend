@@ -67,7 +67,7 @@ export default function Page() {
       className="flex flex-col w-full justify-center pt-[68px]  text-center text-white flex-1 z-10"
       >
         <h1 className="text-[17px] font-semibold">ภาพของเพื่อนศิลปินที่ถูกจับไป</h1>
-        <h1 className="text-[17px] font-semibold">ยังติดอยู่ในหัวคุณ ความผิด ความเสียใจ</h1>
+        <h1 className="text-[17px] font-semibold">ยังติดอยู่ในหัวคุณ ความรู้สึกผิด ความเสียใจ</h1>
         <h1 className="text-[17px] font-semibold ">ความโกรธ มันป่วนปั่นอยู่ในอก</h1>
       
 
