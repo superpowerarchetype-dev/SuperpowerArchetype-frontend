@@ -350,15 +350,15 @@ export default function Page() {
                     </div>
                     <div className="px-[20px] bg-white">
 
-                        <div className="flex flex-col   gap-x-[5px] pt-[20px]">
+                    <div className="flex flex-col   gap-x-[5px] pt-[20px]">
                             <h1 className="text-[16px] text-[#0A0A0A]  align-middle">ทักษะในด้านต่างๆ (Skills Graph)</h1>
-                            <div className="items-center w-full">
+                            <div className="items-center w-full h-[450px]">
                                 <Image
                                     src="/img/skill_graph_the_architect.webp"
                                     width={309}
                                     height={309}
                                     alt="superpower"
-                                    className="object-cover w-full h-[350px] pt-[20px]"
+                                    className="object-cover w-full h-[420px] mt-[40px]"
                                 />
                             </div>
                         </div>

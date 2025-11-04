@@ -27,7 +27,7 @@ export default function Ranking({first,second,third}:{first:string,second:string
     const secondText2 = mapText[second as ArchetypeKey]?.[1] ?? "";
     const thirdText2 = mapText[third as ArchetypeKey]?.[1] ?? "";
     return (
-        <div className="relative flex items-center justify-center h-[200px] w-full">
+        <div className="relative flex items-center justify-center h-[200px] w-[400px]">
             <Image
                 src="/img/ranking.webp"
                 height={150}
@@ -49,7 +49,7 @@ export default function Ranking({first,second,third}:{first:string,second:string
                 </Image>
 
             </div>
-            <div className="absolute left-[65px] bottom-[40px] flex flex-col text-center justify-center text-[12px]">
+            <div className="absolute left-[65px] bottom-[35px] flex flex-col text-center justify-center text-[12px]">
                 <h1>{secondText1}</h1>
                 <h1>{secondText2}</h1>
                 <Image
@@ -62,7 +62,7 @@ export default function Ranking({first,second,third}:{first:string,second:string
                 </Image>
 
             </div>
-            <div className="absolute right-[60px] bottom-[40px] flex flex-col text-center justify-center text-[12px]">
+            <div className="absolute right-[65px] bottom-[35px] flex flex-col text-center justify-center text-[12px]">
                 <h1>{thirdText1}</h1>
                 <h1>{thirdText2}</h1>
                 <Image
