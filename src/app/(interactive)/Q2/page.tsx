@@ -97,7 +97,7 @@ export default function Page() {
                 onTouchEnd={() => setIsAHold(false)}    // mobile support
                 onClick={() => handleAnswer("A")}
             >
-                <h1>เพราะหากคุณไม่ได้ไม่ลงมือทำอะไรตอนนี้</h1>
+                <h1>เพราะหากคุณไม่ลงมือทำอะไรตอนนี้</h1>
                 <h1>คงต้องทนเห็นทุกอย่างพังลงตรงหน้า</h1>
             </button>
         </div>
