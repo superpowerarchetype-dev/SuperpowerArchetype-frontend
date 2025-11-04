@@ -9,6 +9,7 @@ import YellowButtonSemibold from "~/component/yellow_button_semibold";
 import YellowButton from "~/component/yellow_button";
 import { useEffect, useRef, useState } from "react";
 import Ranking from "~/component/ranking";
+import Scroll from "~/component/scroll";
 
 export default function Page() {
     const [first,setFirst] = useState<string>("")
@@ -115,6 +116,40 @@ export default function Page() {
         console.log("Error sharing", err);
       }
     };
+
+  
+
+    const [showScroll, setShowScroll] = useState(true);
+    const reportRef = useRef<HTMLDivElement | null>(null);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+        (entries) => {
+            const entry = entries[0];
+            if (!entry) {
+                console.log("not entry")
+                return; // ✅ Guard clause to satisfy TypeScript
+            }
+
+            if (entry.isIntersecting) {
+            setShowScroll(false);
+            } else {
+            setShowScroll(true);
+            }
+            console.log(showScroll)
+        },
+        { threshold: 0 }
+        );
+
+        const current = reportRef.current;
+        if (current) observer.observe(current);
+
+        return () => {
+        if (current) observer.unobserve(current);
+        };
+    }, []);
+
+
     return (
         
         <motion.div 
@@ -122,6 +157,9 @@ export default function Page() {
             className={cn(notoThai.className, 
             "absolute flex flex-col flex-1 min-h-screen w-full text-[#0A0A0A] bg-[#F0F0F0] overflow-visible overflow-y-scroll overflow-x-hidden")}
             >
+                {showScroll ?
+                <Scroll></Scroll> : <></>
+                }
             <div
                 className="flex flex-col flex-1 min-h-screen w-full text-[#FFFFFF] bg-[#2C2C2C] px-[20px]"
             
@@ -175,16 +213,20 @@ export default function Page() {
                 </motion.div>
             </motion.div>
             </div>
+            <div className="w-full flex flex-col  items-center  bg-[#FFFFFF]  px-[20px] pb-[30px]">
+                    <div className="w-full flex flex-col  items-center  bg-[#F0F0F0]  mt-[40px] my-[10px] rounded-[5px]">
+                        <h1 className="text-[16px] py-[20px] font-semibold text-[#0A0A0A]">3 อันดับตัวตนของคุณ</h1>
+                        <Ranking first={first} second={second} third={third}></Ranking>
+                    </div>
+             </div>
             <motion.div
+                ref={reportRef}
                 className="flex flex-col min-h-screen w-full overflow-y-scroll z-30 px-[20px] pb-[30px] items-center"
             >
-                <div className="w-full flex flex-col  items-center  bg-[#FFFFFF]  mt-[40px] my-[10px] rounded-[5px]">
-                    <h1 className="text-[16px] py-[20px] font-semibold text-[#0A0A0A]">3 อันดับตัวตนของคุณ</h1>
-                    <Ranking first={first} second={second} third={third}></Ranking>
-                </div>
+                
 
-                <div className="w-full items-center  bg-[#000000] border  mt-[40px] my-[10px] rounded-[5px]">
-                    <h1 className="text-[16px] py-[10px] text-white text-center">รายงานวิเคราะห์เชิงลึก</h1>
+                <div  className="w-full items-centermt-[40px] my-[10px] ">
+                    <h1 className="text-[16px] font-semibold py-[10px] mt-[20px] text-[#0A0A0A] text-center">รายงานวิเคราะห์เชิงลึก</h1>
                 </div>
                 <h1 className="text-[18px] font-semibold pt-[20px]">นักวางกลยุทธ์ – Architect</h1>
                 <Image

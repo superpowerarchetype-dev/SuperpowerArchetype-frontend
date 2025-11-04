@@ -31,6 +31,7 @@ export default function Page() {
         "relative flex flex-col justify-between items-center w-full h-screen overflow-hidden bg-[#F0F0F0] text-white px-[20px]"
       )}
     >
+     
       {/* ปุ่มย้อนกลับ */}
       <motion.div 
             initial={{ opacity: 0 }}
