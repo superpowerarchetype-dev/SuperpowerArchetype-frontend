@@ -36,7 +36,7 @@ export default function Page() {
     } else {
         setIsValidAge(1);
     }
-    const validGenders = ["male", "female", "LGBTQIA+", "Not specify"];
+    const validGenders = ["male", "female", "Agender","Non-binary" , "Prefer to self-identity", "Not specify"];
     if (!validGenders.includes(gender)) {
         setIsValidGender(-1)
         valid = false;
@@ -155,10 +155,38 @@ export default function Page() {
                         className={cn(anuphan.className,`h-[40px] w-[100px] leading-[45px] flex flex-col bg-[#F0F0F0] 
                         border-[1px]  rounded-[999px] focus:outline-none border-[#D1D1D1]
                         justify-center items-center align-middle 
-                        ${gender=="LGBTQIA+" ? "border-[#000000] bg-[#FFFF00]" : "border-[#D1D1D1] bg-[#F0F0F0]"}
+                        ${gender=="Agender" ? "border-[#000000] bg-[#FFFF00]" : "border-[#D1D1D1] bg-[#F0F0F0]"}
                         `)}
-                        onClick={()=>setGender("LGBTQIA+")}
-                        >LGBTQIA+</h1>
+                        onClick={()=>setGender("Agender")}
+                        >Agender</h1>
+                        <h1 
+                        className={cn(anuphan.className,`h-[40px] w-[100px] leading-[45px] flex flex-col bg-[#F0F0F0] 
+                        border-[1px]  rounded-[999px] focus:outline-none border-[#D1D1D1]
+                        justify-center items-center align-middle 
+                        ${gender=="Non-binary" ? "border-[#000000] bg-[#FFFF00]" : "border-[#D1D1D1] bg-[#F0F0F0]"}
+                        `)}
+                        onClick={()=>setGender("Non-binary")}
+                        >Non-binary</h1>
+                        
+                        
+                        
+                </div>
+                <div 
+                    className={cn(anuphan.className,`h-[40px]  w-full flex flex-row  resize-none
+                    justify-center items-center  font-light gap-2 mt-[10px]
+                    `)
+                    }
+
+                    >
+                       
+                        <h1 
+                        className={cn(anuphan.className,`h-[40px] w-[200px] leading-[45px] flex flex-col bg-[#F0F0F0] 
+                        border-[1px]  rounded-[999px] focus:outline-none border-[#D1D1D1]
+                        justify-center items-center align-middle 
+                        ${gender=="Prefer to self-identity" ? "border-[#000000] bg-[#FFFF00]" : "border-[#D1D1D1] bg-[#F0F0F0]"}
+                        `)}
+                        onClick={()=>setGender("Prefer to self-identity")}
+                        >Prefer to self-identity</h1>
                         <h1 
                         className={cn(anuphan.className,`h-[40px] w-[70px] leading-[45px] flex flex-col bg-[#F0F0F0] 
                         border-[1px]  rounded-[999px] focus:outline-none border-[#D1D1D1]
