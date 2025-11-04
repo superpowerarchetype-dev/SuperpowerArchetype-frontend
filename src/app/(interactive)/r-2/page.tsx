@@ -21,7 +21,6 @@ export default function Page() {
   const [isValidName,setIsValidName] = useState<number>(0)
   const [isValidGender,setIsValidGender] = useState<number>(0)
   const [isValidAge,setIsValidAge] = useState<number>(0)
-  const [isValidEmail,setIsValidEmail] = useState<number>(0)
 
   const handleSubmit = () => {
     let valid = true;
@@ -44,13 +43,7 @@ export default function Page() {
     } else {
         setIsValidGender(1);
     }
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
-        setIsValidEmail(-1);
-        valid = false;
-    } else {
-        setIsValidEmail(1);
-    }  
+
     
     if (valid) {
         
@@ -201,21 +194,22 @@ export default function Page() {
             </div>
 
             <div className="w-full pb-[20px]">
-                <h1 className="font-light text-[15px] pb-[4px] text-[#0A0A0A]">อีเมลสำหรับรับสาร</h1>
+                <h1 className="font-light text-[15px] pb-[4px] text-[#0A0A0A]">อีเมลสำหรับรับสาร <span className="font-semibold text-[12px]">* (optional)</span></h1>
+                
                 <textarea 
                     className={cn(anuphan.className,`h-[50px] leading-[45px] w-full flex flex-col bg-[#F0F0F0]  resize-none
                     border-[1px]  rounded-[12px] focus:outline-none
                     justify-center items-center pl-[15px] align-middle 
-                    ${isValidEmail !== -1 ? "border-[#D1D1D1]" : "border-[#CE1515]"}
+                    border-[#D1D1D1]
                     `)
                     }
                     placeholder="ช่องทางนี้เพื่อส่งมอบภารกิจต่อไป"
                     onChange={(e)=>setEmail(e.target.value)}
                     >
                 </textarea>
-                { isValidEmail === -1 && 
-                <h1 className={cn(anuphan.className,"text-[14px] text-[#CE1515]")}>กรุณาระบุอีเมลของคุณ</h1>
-                }
+
+                <h1 className="font-light text-[10px] mt-[10px]">* ช่องทางนี้เพื่อส่งมอบภารกิจ ข่าวสาร การระดมทุน และกิจกรรมต่างๆ</h1>
+                <h1 className="font-light text-[10px]">ที่เกี่ยวกับงานของแอมเนสตี้</h1>
             </div>
 
             
