@@ -578,7 +578,7 @@ export default function Page() {
                     />
                     <div className="text-center">
                         <h1>ร่วมลงชื่อเพื่อกดดันการกำกับดูแล</h1>
-                        <h1>การค้าอุปกรณ์ควบคุมฝูงชนโดยทันท</h1>
+                        <h1>การค้าอุปกรณ์ควบคุมฝูงชนโดยทันที</h1>
                     </div>
                     <Link 
                         className="w-full px-[30px] pt-[10px]"
