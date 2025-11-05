@@ -94,7 +94,7 @@ export default function Page() {
       {/* ภาพตรงกลาง */}
       <div
         
-        className="flex flex-col justify-center items-left flex-1 w-full pt-[48px]"
+        className="flex flex-col justify-center items-left flex-1 w-full pt-[30px]"
       >
         <motion.div 
             initial={{ opacity: 0 }}
@@ -242,7 +242,16 @@ export default function Page() {
 
             
         </motion.div>
-
+      {/* ปุ่มถัดไป */}
+      <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ease: "easeOut", duration: duration, delay: 0.4 }}
+              className="flex flex-col  py-[20px] h-[88px] w-full items-center z-10"
+              onClick={handleSubmit}
+              >
+                <YellowButton text="เริ่มภารกิจ" />
+            </motion.div>
     
         
 
@@ -251,16 +260,7 @@ export default function Page() {
 
       
 
-      {/* ปุ่มถัดไป */}
-      <motion.div 
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ease: "easeOut", duration: duration, delay: 0.4 }}
-        className="absolute bottom-[20px] flex flex-col px-[20px] py-[20px] h-[88px] w-full items-center z-10"
-        onClick={handleSubmit}
-        >
-          <YellowButton text="เริ่มภารกิจ" />
-      </motion.div>
+      
     </motion.div>
   );
 }
