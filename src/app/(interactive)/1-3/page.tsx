@@ -48,7 +48,7 @@ export default function Page() {
 
         {/* Text content */}
         <div className="flex flex-col justify-center py-[20px] text-[18px] font-light z-10 w-full">
-            <h1>เมืองนี้เคย วุ่นวาย, โต้เถียง, และ มีชีวิตชีวา </h1>
+            <h1>เมืองนี้เคย วุ่นวาย โต้เถียง และ มีชีวิตชีวา </h1>
             <h1>มันอาจจะน่าเหนื่อยหน่ายในบางวัน</h1>
             <h1 className="pt-[5%]">แต่ความโกลาหลนั้น... </h1>
             <h1>คือหลักฐานของความเป็น "มนุษย์"</h1>

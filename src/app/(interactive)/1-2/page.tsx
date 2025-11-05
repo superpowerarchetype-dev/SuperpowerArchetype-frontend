@@ -73,7 +73,7 @@ export default function Page() {
                     className="flex flex-col items-left pt-[20px] text-[18px] font-light z-10 w-full">
             
 
-                        <h1>เมืองนี้เคย วุ่นวาย, โต้เถียง, และ มีชีวิตชีวา </h1>
+                        <h1>เมืองนี้เคย วุ่นวาย โต้เถียง และ มีชีวิตชีวา </h1>
                         <h1>มันอาจจะน่าเหนื่อยหน่ายในบางวัน</h1>
                 
                 </motion.div>
