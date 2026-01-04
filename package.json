@@ -22,6 +22,7 @@
     "html-to-image": "^1.11.13",
     "lucide-react": "^0.545.0",
     "next": "^15.2.3",
+    "next-intl": "^4.6.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-howler": "^5.2.0",

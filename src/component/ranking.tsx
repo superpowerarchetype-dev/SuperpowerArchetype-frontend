@@ -37,8 +37,9 @@ export default function Ranking({first,second,third}:{first:string,second:string
             >
             </Image>
             <div className="absolute bottom-[45px] flex flex-col text-center justify-center font-semibold text-[14px]">
-                <h1>{firstText1}</h1>
+                
                 <h1>{firstText2}</h1>
+                <h1>{firstText1}</h1>
                 <Image
                 src={`/img/strength_${first}.webp`}
                 height={80}
@@ -50,8 +51,9 @@ export default function Ranking({first,second,third}:{first:string,second:string
 
             </div>
             <div className="absolute left-[65px] bottom-[35px] flex flex-col text-center justify-center text-[12px]">
-                <h1>{secondText1}</h1>
+                
                 <h1>{secondText2}</h1>
+                <h1>{secondText1}</h1>
                 <Image
                 src={`/img/strength_${second}.webp`}
                 height={56}
@@ -63,8 +65,9 @@ export default function Ranking({first,second,third}:{first:string,second:string
 
             </div>
             <div className="absolute right-[65px] bottom-[35px] flex flex-col text-center justify-center text-[12px]">
-                <h1>{thirdText1}</h1>
+                
                 <h1>{thirdText2}</h1>
+                <h1>{thirdText1}</h1>
                 <Image
                 src={`/img/strength_${third}.webp`}
                 height={56}

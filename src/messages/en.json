@@ -1,0 +1,952 @@
+{
+    "0-1" :  {
+          "heroHidden": "In every movement, there are heroes beneath.",
+          "fire": "Some are searing flames burning high,",
+          "voice": "some, voices that reflect the truth,",
+          "planner": "and others, strategists, guardians, and supporters.",
+          "powerMeaning": "Every power holds its worth,",
+          "betterWorld": "and each one turns a gear that drives the world forward.",
+          "readyToDiscover": "Are you ready to discover your hidden superpower?",
+          "startJourney": "Start the Journey",
+          "soundOn": "Please turn on the volume for your best experience."
+        },
+    "1-1": {
+            "beforeSilence": "Before silence reigns the land…",
+            "cityHadVoice": "This city used to harbour \"voices.\"",
+            "cityChaos": "It used to be chaotic, loud, and bustling.",
+            "tiringDays": "It may seem exhausting at times,"
+          },
+    "1-2": {
+        "beforeSilence": "Before silence reigns the land…",
+        "cityHadVoice": "This city used to harbour \"voices.\"",
+        "cityChaos": "It used to be chaotic, loud, and bustling.",
+        "tiringDays": "It may seem exhausting at times,"
+        },
+    "1-3": {
+        "beforeSilence": "Before silence reigns the land…",
+        "cityHadVoice": "This city used to harbour \"voices.\"",
+        "cityChaos": "It used to be chaotic, loud, and bustling.",
+        "tiringDays": "It may seem exhausting at times,",
+        "chaosProof": "but the existence of such a disorder…",
+        "humanity": "is the proof of \"humanity.\"",
+        "next": "Next"
+        },
+    "1-4": {
+        "back": "Previuos",
+        "noOneRemembers": "No one knows exactly when ",
+        "whenSilenceCame": "“The Silence” arrived,",
+        "infiltrated": "but it slowly seeped into the city on the day",
+        "weakestDay": "it was at its lowest,",
+        "tiredPeople": "the very day the people grew weary of",
+        "next": "Next"
+        },
+    "1-5": {
+        "back": "Previuos",
+        "whisperPromise": "It whispered of the",
+        "peaceOrder": "\"Peace\" and \"orderliness\".",
+        "yearning": "that people yearned for.",
+        "peopleAccepted": "To end the discordance for good,",
+        "next": "Next"
+        },
+    "1-6": {
+        "back": "Previuos",
+        "morning": "This morning… You woke up in the",
+        "wokeUp": "same yet unfamiliar city.",
+        "changed": "",
+        "cafe": "The lively coffee shop has put up a ",
+        "street": "The bustling streets are now filled with people",
+        "avoidEyeContact": "who can’t look into each other’s eyes.",
+        "now": "The city isn’t quiet because people have found ",
+        "drowningSilence": "peace, but it’s quiet because people are afraid",
+        "fearSilence": "to speak.",
+        "next": "Next"
+        },
+    "1-7": {
+        "back": "Previuos",
+        "butYou": "But you... You remember that this city used to",
+        "rememberVoice": "be filled with the voices of its citizens.",
+        "survivor": "You are one of the survivors...",
+        "next": "Next"
+        },
+    "r-1": {
+        "back": "Previuos",
+        "readyToStart": "Are you ready for a journey to",
+        "lastVoice": "search for the last ‘voice’ yet to",
+        "alongTheWay": "During the journey, every decision of yours ",
+        "findHero": "will be recorded and analysed to awaken your",
+        "trustUs": "superpower. Please rest assured that all your ",
+        "topSecret": "answers will be kept a secret between us!",
+        "next": "Next"
+        },
+    "r-2": {
+        "back": "Previuos",
+        "beforeMission": "Before the mission starts,",
+        "knowYou": "please register your information.",
+        "alias": "Alias",
+        "aliasPlaceholder": "Register the name you’d like to be known.",
+        "errorName": "Please specify your name/alias",
+        "gender": "Gender",
+        "male": "Male",
+        "female": "Female",
+        "selfIdentity": "Prefer to self-identify",
+        "notSpecify": "Not specify",
+        "errorGender": "Please specify your gender",
+        "age": "Age",
+        "agePlaceholder": "This data will be confidential.",
+        "errorAge": "Please specify your age",
+        "email": "Email for communication",
+        "optional": "* (optional)",
+        "emailPlaceholder": "Address for assigning future missions.",
+        "emailNote1": "* This channel is for mission updates, news, fundraising, and activities",
+        "emailNote2": "related to Amnesty's work",
+        "startMission": "Begin Mission"
+        },
+    "1-8": {
+        "day47": "Day 47",
+        "afterSilence": "after The Silence has taken over ",
+        "walkStreet": "You walk along the street that used to be an",
+        "wallArt": "artistic site full of colourful paints and",
+        "greyPaint": "graffiti, but now, the walls are covered up in ",
+        "next": "Next"
+        },  
+    
+        
+    "2-1": {
+        "back": "Previuos",
+        "artistContact": "The next morning, an artist reaches out to you.",
+        "wordsThought": "He says that your words made him realise that art ",
+        "artNotDie": "shall never die.",
+        "meetSquare": "Both of you arrange a meeting at the town",
+        "colors": "square, where he brings a lot of vibrant colours,",
+        "next": "Next"
+        },
+    "2-2": {
+        "back": "Previuos",
+        "drawSky": "“Today we’ll draw a sky with no rainclouds.”",
+        "heSaid": "He says.",
+        "next": "Next"
+        },
+    "3-1": {
+        "back": "Previuos",
+        "dipBrush": "But when he paints a bright blue stroke ",
+        "next": "Next"
+        },
+    "3-2": {
+        "back": "Previuos",
+        "dipBrush": "But when he paints a bright blue stroke ",
+        "fogAppears": "a dark mist gushes out from the nearby alley",
+        "next": "Next"
+        },
+    "3-3": {
+        "back": "Previuos",
+        "theSilence": "The Silence",
+        "isHere": "has come.",
+        "next": "Next"
+        },  
+    "34-4": {
+        "back": "Previuos",
+        "tooLate": "But it's too late.",
+        "kidnapped": "The Silence has already taken your friend.",
+        "next": "Next"
+        },
+    "4-1": {
+    "back": "Previuos",
+    "timePlace": "3 hours later - the underground tunnel",
+    "wakeUp": "You wake up on a cold stone floor with a slight ",
+    "hand": "bruise on your head and a scratch on your left hand.",
+    "next": "Next"
+    },
+    "41-3": {
+        "back": "Previuos",
+        "iHeard": "“I’m getting a new message!” ",
+        "nextPlan": "Someone raises their communicative",
+        "silenceRelease": "The Silence is going to release a ",
+        "brainwash": "“brainwashing signal” in the next 48 hours.",
+        "onlyWay": "The only way to stop it",
+        "destroyTower": "is to destroy the Mind Tower",
+        "centerCity": "now standing tall at the centre of the city.",
+        "next": "Next"
+        },
+    "41-4": {
+        "back": "Previuos",
+        "16hours": "16 hours before the mission",
+        "knowPlan": "The Silence catches on to your plan.",
+        "whisper": "Amidst the flowing Mist, “whispers” carry through.",
+        "evilVoice": "Countless voices slowly seep into your mind, the ",
+        "knowYouBetter": "voices that seem to know you better than even yourself.",
+        "next": "Next"
+        },
+    "4-2": {
+        "back": "Previuos",
+        "lookAround": "You look around and see about 7-8 people",
+        "welcome": "An old man speaks up, ",
+        "voiceOldMan": "“Welcome to ‘The Underground’.”",
+        "weAreLast": "“We are the last survivors of whom the Mist",
+        "fogCannotTouch": "cannot harm us.”",
+        "power": "At that moment, you learn that you are",
+        "resistFog": "immune to the Mist of Silence.",
+        "next": "Next"
+        },
+    "5-1": {
+        "back": "Previuos",
+        "morningNext": "The next morning",
+        "distance": "500 meters from the Tower"
+        },
+    "5-2": {
+        "back": "Previuos",
+        "stronger": "Everyone feels uplifted once again.",
+        "destination": "But when you arrive at the destination...",
+        "trap": "You see traps much more complex than what ",
+        "next": "Next"
+        },
+    "5-3": {
+        "back": "Previuos"
+        },
+    "7-1": {
+        "back": "Previuos",
+        "destroyed": "The Mind Tower is successfully destroyed. ",
+        "fogGone": "The Mist of Silence has finally dissipated.",
+        "success": "Your team succeeds.",
+        "next": "Next"
+        },
+    "72-2": {
+        "back": "Previuos",
+        "sunlight": "Warm, gentle rays of sunlight slip through",
+        "firstTime": "the clouds for the first time in weeks.",
+        "cityAlive": "The city has become vibrant ",
+        "injured": "However, you’re badly injured from the",
+        "beforeBlackout": "explosion. Before you fall unconscious, you",
+        "vision": "see a particular vision pictured in your mind.",
+        "next": "Next"
+        }, 
+    "8-1": {
+        "openEyes": "You open your eyes...",
+        "notHeaven": "It’s not heaven, nor oblivion.",
+        "survived": "You’re alive.",
+        "soundOutside": "You hear several voices coming from outside.",
+        "laughter": "Laughter, songs, conversations and cheers ",
+        "cheering": "full of life.",
+        "celebrating": "The city is celebrating for freedom that you’ve",
+        "forFreedom": "fought to earn back.",
+        "towerFallen": "The Tower is down, and the Mist is no more.",
+        "next": "Next"
+        },
+    "9-1": {
+        "back": "Previuos",
+        "amidstJoy": "But amidst the voices of happiness...",
+        "silentTruth": "You can feel the silent truth within.",
+        "notGone": "The truth that The Silence hasn’t vanished.",
+        "weakened": "It has only weakened… and is waiting for its return.",
+        "notDead": "It’s not gone, just like you.",
+        "understand": "At that moment, you understand…",
+        "next": "Next"
+        },
+    "9-2": {
+        "back": "Previuos",
+        "amidstJoy": "But amidst the voices of happiness...",
+        "silentTruth": "You can feel the silent truth within.",
+        "notGone": "The truth that The Silence hasn’t vanished.",
+        "weakened": "It has only weakened… and is waiting for its return.",
+        "notDead": "It’s not gone, just like you.",
+        "understand": "At that moment, you understand…",
+        "next": "Next"
+        },
+    "10-1": {
+        "back": "Previuos",
+        "dream": "What you saw before you passed out wasn’t ",
+        "unfinished": "only a made-up memory,",
+        "hope": "but it was an unfulfilled mission",
+        "notJustMartyrs": "This world needs not only heroes who are ",
+        "livingHero": "but also heroes who are willing to live on and ",
+        "timeToKnow": "And now… It’s time to reveal your voice that ",
+        "yourVoice": "resonates with the world.",
+        "seeResult": "See Results"
+        },            
+    "Q1": {
+        "back": "Previuos",
+        "questionLine1": "What is the first “vision” that ignites",
+        "questionLine2": "the righteous flame within you?",
+        "choiceA_1": "The vision of the innocent being silenced in ",
+        "choiceA_2": "despair.",
+        "choiceB_1": "The vision of friendly neighbours turned ",
+        "choiceB_2": "apprehensive.",
+        "choiceC_1": "The vision of a child’s empty eyes that reflect",
+        "choiceC_2": "an empty future."
+    },
+    "Q2": {
+        "back": "Previuos",
+        "whyYou": "WHY must you fight? and why NOW? ",
+        "whyNow": "Which thoughts resonate with your heart ",
+        "heartBeat": "most?",
+        "choiceA_1": "“If I don’t do anything now, everything will ",
+        "choiceA_2": "crumble before my eyes.”",
+        "choiceB_1": "“What’s happening is wrong, and it’s my duty to ",
+        "choiceB_2": "share this feeling around.”",
+        "choiceB_3": "",
+        "choiceC_1": "“This problem isn’t new, and if isn’t fixed soon,",
+        "choiceC_2": "it’ll just repeat and worsen.”"
+      },
+      "Q3": {
+        "back": "Previuos",
+        "powerNotEnough": "You know well that your power alone isn’t enough. ",
+        "wakePeople": "To find comrades, you must encourage the people ",
+        "howToUnite": "to join in the revolution. How will you do it?",
+        "choiceA_1": "Invite everyone you know to gather up",
+        "choiceA_2": "and form a flash mob full of liveliness.",
+        "choiceB_1": "Design a well-planned structure and ",
+        "choiceB_2": "prepare Plan B in case the revolution goes south.",
+        "choiceC_1": "Speak up on the stage and persuade people ",
+        "choiceC_2": "with an impressive emotional speech."
+      },
+      "Q4": {
+        "back": "Previuos",
+        "fogMoving": "The mist is lunging at your friend. ",
+        "whatToDo": "What will you do?",
+        "choiceA_1": "Create a barrier",
+        "choiceA_2": "and remind everyone to stay close.",
+        "choiceB_1": "Charge at it to create a distraction.",
+        "choiceB_2": "",
+        "choiceC_1": "Think of a game changer to turn the table.",
+        "choiceC_2": ""
+      },
+      "Q5": {
+        "back": "Previuos",
+        "friendTaken": "The sight of your artist friend being",
+        "stuckInHead": "taken away is still so vivid in your mind.",
+        "anger": "stir in your chest. You decide to...",
+        "choiceA_1": "Write everything that’s bottled up down ",
+        "choiceA_2": "to clear your thoughts.",
+        "choiceB_1": "Rethink of what’s happened and ",
+        "choiceB_2": "improve your plan and strategy.",
+        "choiceC_1": "Find anything to do to get rid of",
+        "choiceC_2": "all the extreme emotions.",
+        "choiceC_3": ""
+      },
+      "Q6": {
+        "back": "Previuos",
+        "atmosphere": "People in the tunnel have only briefly",
+        "strangers": "known each other. ",
+        "approach": "How will you approach them?",
+        "choiceA_1": "Make a friendly small talk to gain their trust.",
+        "choiceA_2": "",
+        "choiceB_1": "Share your bread and water and provide ",
+        "choiceB_2": "blankets to people in need.",
+        "choiceC_1": "Listen to those who want to let it all out and be ",
+        "choiceC_2": "their emotional support.",
+        "choiceC_3": ""
+      },
+      "Q7": {
+        "back": "Previuos",
+        "peopleTalk": "Your approach breaks the ice for all the people.",
+        "everyoneShare": "That night, they exchange their stories ",
+        "resistSilence": "and encounters with The Silence.",
+        "whichStory": "Which story is the best for you?",
+        "choiceA_1": "The story of <span>“The Journalist”</span> who risked their life ",
+        "choiceA_2": "exposing The Silence’s secret. Their reputation",
+        "choiceA_3": "plummeted overnight, but they believe that “only",
+        "choiceA_4": "the truth can save people.”",
+        "choiceB_1": "The story of <span>“The Selfless Man”</span> who left his career",
+        "choiceB_2": "and treasures behind to help escort people away",
+        "choiceB_3": "from the Mist. He believes that “one can never be ",
+        "choiceB_4": "happy if their loved ones are in danger.”",
+        "choiceC_1": "The story of <span>“The Storyteller”</span> who gathered ",
+        "choiceC_2": "children around to tell numerous stories from ‘the ",
+        "choiceC_3": "old world’ full of joy and laughter. They believe that",
+        "choiceC_4": "“children are the strongest gears to push the world forward.”"
+      },
+      "Q8": {
+        "back": "Previuos",
+        "missionBig": "This mission is big and extremely ",
+        "splitRoles": "important. Everyone will be assigned ",
+        "whatRole": "a task. Which do you pick?",
+        "choiceA_1": "<span>\"Mastermind\"</span> - strategise and come up with ",
+        "choiceA_2": "plans and escape routes for every possible situation",
+        "choiceB_1": "<span>\"Support\"</span> - gather and prepare food, look after ",
+        "choiceB_2": "weakened allies, and be the centre of communication",
+        "choiceC_1": "<span>\"Network\"</span> - spread the words and make more",
+        "choiceC_2": "allies, inform and encourage all people in the city"
+      },
+      "Q9": {
+        "back": "Previuos",
+        "whatWords": "Which words of The Silence ",
+        "shakeYou": "that shaken your core the most?",
+        "choiceA_1": "“Your actions are futile. ",
+        "choiceA_2": "They prove no worth, and no one will remember ",
+        "choiceB_1": "“Your plan is flawed, through and through. ",
+        "choiceB_2": "Your strategy fails, and you cannot fix anything.”",
+        "choiceC_1": "“Once you harbour no significance to these"
+      },
+      "Q10": {
+        "back": "Previuos",
+        "teamDiscouraged": "Your allies begin to feel discouraged. ",
+        "whatToSay": "What will you say to cheer them up?",
+        "choiceA_1": "“Don’t listen to it! It’s doing this because it’s ",
+        "choiceA_2": "scared of us! Let’s show our full resolution!”",
+        "choiceB_1": "“Take a deep breath. We won’t leave anyone",
+        "choiceB_2": "behind. We’ll get through this together.”",
+        "choiceC_1": "“Its plan is to crush our morales. If we fall for ",
+        "choiceC_2": "it, we’ll lose. Hang in there, you can do it.”"
+      },
+      "Q11": {
+        "back": "Previuos",
+        "robots": "There are 15 security bots, laser walls, and ",
+        "laser": "magnetic gates.",
+        "timeLeft": "You only have 30 minutes left. ",
+        "choiceA_1": "“Let’s think together.",
+        "choiceA_2": "Which way is the safest we can deal with?”",
+        "choiceB_1": "“There’s no time now! ",
+        "choiceC_1": "“Hold on… "
+      },
+      "Q12": {
+        "back": "Previuos",
+        "finalMoment": "In the last glimpse of conscience, the ",
+        "vision": "vision of the future pops up in your mind...",
+        "whatYouSee": "What do you see?",
+        "choiceA_1": "Children growing up in safe foundations that",
+        "choiceA_2": "you’ve created",
+        "choiceB_1": "Hurt people mending and healing with ",
+        "choiceB_2": "understanding and kindness",
+        "choiceC_1": "Your words living on as a catchphrase or a",
+        "choiceC_2": "running joke among the people"
+      },
+      "Q13": {
+        "back": "Previuos",
+        "reflection": "The vision reflects your very “core,” but ",
+        "trueSelf": "what about yourself? How do you want to",
+        "whatHero": "be remembered?",
+        "the_architect": {
+            "line1": "The one who reshapes the world with a ",
+            "line2": "blueprint seen from a different perspective"
+        },
+        "the_echo": {
+            "line1": "The one who stays truthful and reflects what ",
+            "line2": "most people stay silent about"
+        },
+        "the_flame": {
+            "line1": "The one who’s brave enough to spark the first",
+            "line2": "flame on the road of solitary"
+        },
+        "the_guardian": {
+            "line1": "The one who guards the well-being of others",
+            "line2": "with utter selflessness"
+        },
+        "the_seeder": {
+            "line1": "The one who plants the root of the foundation",
+            "line2": "for the unseen future"
+        },
+        "the_spark": {
+            "line1": "The one who electrifies the world not with ",
+            "line2": "pressure, but with enthusiasm"
+        }
+      },
+        "pre-endcard": {
+          "youAre": "You are..."
+        },
+        "endcard-the_flame": {
+            "title": "You are...",
+            "shareBtn": "Download and Share",
+            "shareVoice": "Share your voice!",
+            "sharePrompt": "Share your End card on social now!",
+            "viewReports": "View full reports",
+            "rankingTitle": "Top 3 identities",
+            "reportTitle": "In-depth Analysis Report",
+            "characterName": "The Flame",
+            "quote": "\"Ignite Justice, Burn Bright.\"",
+            "identity": {
+            "title": "Core Identity",
+            "descTitle": "Identity Description",
+            "desc": "You are a driving force fueled by the fire of justice. You do not see injustice as a mere problem, but as an enemy that must be confronted head-on. When others hesitate, you are the first to step onto the front lines. Your spirit ignites at the sight of oppression, and you believe that silence is a form of surrender.",
+            "questionTitle": "Guiding Question",
+            "question": "“What must be challenged?”",
+            "questionDesc": "You constantly seek out unjust power structures and are always ready to shake them.",
+            "idealWorldTitle": "Ideal World",
+            "idealWorldDesc": "A world where injustice is met with courage—no compromise, no waiting. Everyone should dare to rise and fight for what is right."
+            },
+            "element": {
+            "title": "Element",
+            "name": "Fire",
+            "desc": "the power of change, passion, and truth that burns away the ephemeral"
+            },
+            "superpower": {
+            "title": "Superpower",
+            "subTitle": "Superpower",
+            "name": "Ignition Aura",
+            "desc": "An ember of emotions burning bright with a fiery core, ready to ignite justice and encourage people to fight against evil. This power is more than words—it is an aura of energy radiating from you, awakening courage and pushing those who hesitate to choose to fight alongside you"
+            },
+            "strengths": {
+            "title": "Strengths",
+            "deliveryDesc": "Bold and charismatic, able to inspire and lead with confidence.",
+            "example": "Example:",
+            "deliveryEx": "At a rally where morale is fading, you can grab the microphone and reignite the crowd’s energy with just a few fiery words.",
+            "braveTitle": "Fearless Confrontation",
+            "braveDesc": "Unafraid to ask the questions no one dares to ask, or to challenge those in power publicly.",
+            "fastTitle": "Quick Decision-Making",
+            "fastDesc": "In moments of crisis, you act instinctively and decisively, often creating waves of change."
+            },
+            "growth": {
+            "title": "Growth Edge",
+            "weaknessTitle": "Impatience & Recklessness",
+            "weaknessDesc": "Your quick-to-action perk can lead to unexpected victories, but it can also derail team plans due to poor communication.",
+            "example": "Example:",
+            "weaknessEx": "You may suddenly change a protest route without consulting the team, causing support units with supplies to go to the wrong place.",
+            "adviceTitle": "Advice",
+            "adviceDesc": "Your power is immense, but it is strongest when directed. Partner with Architect so your actions are backed by a plan—turning wild fire into a sharp laser."
+            },
+            "skills": {
+            "title": "Skills Graph"
+            },
+            "alliance": {
+            "title": "Alliance",
+            "idealTitle": "Ideal Allies",
+            "architectDesc": "You are the frontline; Architect provides the blueprint and points out weak spots. They ensure that your attack is not only brave but also smart.",
+            "sparkDesc": "You light the fire; Spark pours fuel on it. You ignite a hot topic, and The Spark makes it go viral overnight.",
+            "cautionTitle": "Caution with",
+            "guardianDesc": "Your impulsiveness may worry Guardian, who prioritises safety and may constantly try to hold you back, creating tension in timing.",
+            "seederDesc": "You demand immediate change, while Seeder believes in slow growth. You may see them as inactive, and they may see you as going against the foundations they have built."
+            },
+            "environment": {
+            "title": "Ideal Environment",
+            "shineTitle": "You thrive in",
+            "shineDesc": "frontline protests and marches, fast-paced campaigns, acting as a voice during crises, and debating to defend ideals.",
+            "questionTitle": "Reflection Question",
+            "questionDesc": "What form of injustice ignites your fire the most—and how will you control that fire so it does not burn you or your allies?"
+            },
+            "role": {
+            "title": "Roles & Careers in Movements",
+            "name": "The Flame",
+            "desc": "typically takes frontline roles where courage, urgency, and mobilisation are key.",
+            "commonTitle": "Common Roles",
+            "list": [
+                "• Protest organiser / Campaign activist",
+                "• Ground human rights defender (HRD)",
+                "• Campaign officer (urgent crisis campaigns)",
+                "• Direct action coordinator (environment, labour, or human rights)",
+                "• Spokesperson / public speaker for high-profile issues",
+                "• Community mobiliser in conflict or resistance areas"
+
+            ]
+            }
+        },
+        "endcard-the_architect": {
+            "title": "You are...",
+            "shareBtn": "Download and Share",
+            "shareVoice": "Share your voice!",
+            "sharePrompt": "Share your End card on social now!",
+            "viewReports": "View full reports",
+            "rankingTitle": "Top 3 identities",
+            "reportTitle": "In-depth Analysis Report",
+            "characterName": "The Architect",
+            "quote": "\"Master the Mind. Master the Plan.\"",
+            "identity": {
+            "title": "Core Identity",
+            "descTitle": "Identity Description",
+            "desc": "You are the brain of the team. You see the big picture, analyse patterns, and design complex plans for real systemic change. You believe not in luck, but in well-crafted strategy.",
+            "questionTitle": "Guiding Question",
+            "question": "“What is the most effective system?”",
+            "questionDesc": "You seek weaknesses in existing systems and design better ones.",
+            "idealWorldTitle": "Ideal World",
+            "idealWorldDesc": "A world of transparent, efficient systems that serve humanity—not the other way around."
+            },
+            "element": {
+            "title": "Element",
+            "name": "Metal",
+            "desc": "clarity, strength, and structure. Like a blade or steel framework defining direction and limits"
+            },
+            "superpower": {
+            "title": "Superpower",
+            "subTitle": "Superpower",
+            "name": "Blueprint Core",
+            "desc": "A system capable of simulating and solving any complicated matters in real-time, constructing a blueprint to accurately predict the unknown future. This power assists you in seeing variables and paths others miss."
+            },
+            "strengths": {
+            "title": "Strengths",
+            "strategyDesc": "Systematic thinking and long-term planning excellence.",
+            "example": "Example:",
+            "strategyEx": "While others are debate, you have already outlined a five-step action plan with contingencies A, B, and C.",
+            "visionTitle": "Vision",
+            "visionDesc": "Anticipates future risks and opportunities.",
+            "logicTitle": "Logic-Driven",
+            "logicDesc": "Decisions based on analysis—not emotion, making them reliable and highly-succeeding."
+            },
+            "growth": {
+            "title": "Growth Edge",
+            "weaknessTitle": "Perfectionism & Analysis Paralysis",
+            "weaknessDesc": "Overthinking may delay action.",
+            "example": "Example:",
+            "weaknessEx": "You refine a plan so long that you miss the best moment to act.",
+            "adviceTitle": "Advice",
+            "adviceDesc": "The best plan is one that begins. The Flame’s momentum can help launch plans and projects that may have yet to be perfect. Trust your ability to adapt."
+            },
+            "skills": {
+            "title": "Skills Graph"
+            },
+            "alliance": {
+            "title": "Alliance",
+            "idealTitle": "Ideal Allies",
+            "guardianDesc": "Executes your well-crafted plans safely and carefully.",
+            "flameDesc": "Provides the push that turns plans on paper into action on the field.",
+            "cautionTitle": "Caution with",
+            "echoDesc": "You may see them as emotional and biased; they may see you as inhuman and cold.",
+            "sparkDesc": "Their improvisation feels unpredictable to you, causing you to deeply worry if things will go south."
+            },
+            "environment": {
+            "title": "Ideal Environment",
+            "shineTitle": "You thrive in",
+            "shineDesc": "strategic planning, system design, data analysis, complex project management, and advisory roles.",
+            "questionTitle": "Reflection Question",
+            "questionDesc": "What is the most inefficient system you encounter daily—and what is the first step in drafting a new blueprint for it?"
+            },
+            "role": {
+            "title": "Roles & Careers in Movements",
+            "name": "The Architect",
+            "desc": "is essential for structure, foresight, and planning.",
+            "commonTitle": "Common Roles",
+            "list": [
+                "• Campaign strategist / advocacy planner",
+                "• Policy analyst or advisor",
+                "• Strategic litigation lawyer",
+                "• Research director",
+                "• Head of organisational development",
+                "• Think tank researcher / movement theorist"
+            ]
+            }
+        },
+        "endcard-the_spark": {
+            "title": "You are...",
+            "shareBtn": "Download and Share",
+            "shareVoice": "Share your voice!",
+            "sharePrompt": "Share your End card on social now!",
+            "viewReports": "View full reports",
+            "rankingTitle": "Top 3 identities",
+            "reportTitle": "In-depth Analysis Report",
+            "characterName": "The Spark",
+            "quote": "\"Meme It, Beam It!\"",
+            "identity": {
+            "title": "Core Identity",
+            "descTitle": "Identity Description",
+            "desc": "You are the energy that creates momentum. With charm and creativity, you turn ideas viral overnight. You believe change doesn’t always have to be serious; it can be fun, colourful, and widely accessible.",
+            "questionTitle": "Guiding Question",
+            "question": "“What can we spark?”",
+            "questionDesc": "You seek the right idea and perfect timing to\n create momentum.",
+            "idealWorldTitle": "Ideal World",
+            "idealWorldDesc": "A world where powerful ideas spread like wildfire, \ndriving movements and change in an instant."
+            },
+            "element": {
+            "title": "Element",
+            "name": "Wind & Lightning",
+            "desc": "movement, connection, rapid spread; combined with Electricity — instant activation and ignition"
+            },
+            "superpower": {
+            "title": "Superpower",
+            "subTitle": "Superpower",
+            "name": "Viral Lightning",
+            "desc": "A loud, flashy spark thundering in the sky with its dazzling power, shining with an aura that draws a mass of attention to itself. This power is majors in catching trends and creating the right content at the right moment, triggering massive sharing."
+            },
+            "strengths": {
+            "title": "Strengths",
+            "influenceDesc": "Highly energetic and connective; excites and motivates teams.",
+            "example": "Example:",
+            "influenceEx": "You turn a boring issue into a TikTok challenge or a sharp meme that goes viral.",
+            "adaptTitle": "Fast Adaptation",
+            "adaptDesc": "You understand online culture and pivot strategies quickly.",
+            "creativeTitle": "Creativity & Humour",
+            "creativeDesc": "Overflowing with fresh ideas and engaging presentation styles."
+            },
+            "growth": {
+            "title": "Growth Edge",
+            "weaknessTitle": "Fragmented Execution & Lack of Structure",
+            "weaknessDesc": "High energy may lead to shallow execution.",
+            "example": "Example:",
+            "weaknessEx": "You jump into new ideas enthusiastically but abandon them once attention arrives, causing them to be inconsistent.",
+            "adviceTitle": "Advice",
+            "adviceDesc": "You ignite the spark, but someone must tend it. Lean on Architect to give structure so your creativity leads to lasting and sustainable impact."
+            },
+            "skills": {
+            "title": "Skills Graph"
+            },
+            "alliance": {
+            "title": "Alliance",
+            "idealTitle": "Ideal Allies",
+            "flameDesc": "Provides raw, authentic issues as a fuel to go viral. The Flame creates meaning; you turn it into reach.",
+            "architectDesc": "Turns online buzz into real-world change with a systematic movement and strategy.",
+            "cautionTitle": "Caution with",
+            "seederDesc": "You may see them as slow and tedious; they may see you as superficial.",
+            "guardianDesc": "Your chaos clashes with their need for order, which may cause you to feel uneasy."
+            },
+            "environment": {
+            "title": "Ideal Environment",
+            "shineTitle": "You thrive in",
+            "shineDesc": "social media campaigns, branding, events, flash mobs, online networking and mobilisation.",
+            "questionTitle": "Reflection Question",
+            "questionDesc": "What idea do you believe in enough to make it go viral—and how will you protect its core meaning?"
+            },
+            "role": {
+            "title": "Roles & Careers in Movements",
+            "name": "The Spark",
+            "desc": "is vital for communication strategy and mass awareness.",
+            "commonTitle": "Common Roles",
+            "list": [
+                "• Digital campaigner / social media manager",
+                "• Media & public relations officer",
+                "• Public engagement specialist",
+                "• Influencer / issue ambassador",
+                "• Creative producer (video, visuals, podcasts)",
+                "• Event mobiliser"
+            ]
+            }
+        },
+        "endcard-the_echo": {
+            "title": "You are...",
+            "shareBtn": "Download and Share",
+            "shareVoice": "Share your voice!",
+            "sharePrompt": "Share your End card on social now!",
+            "viewReports": "View full reports",
+            "rankingTitle": "Top 3 identities",
+            "reportTitle": "In-depth Analysis Report",
+            "characterName": "The Echo",
+            "quote": "\"One Whisper Awaken Thousands.\"",
+            "identity": {
+            "title": "Core Identity",
+            "descTitle": "Identity Description",
+            "desc": "You transform information into emotion. Through storytelling, you connect hearts and turn complex issues into human narratives. You believe statistics and data alone cannot change the world without stories that reflect humanity.",
+            "questionTitle": "Guiding Question",
+            "question": "“What truth has not yet been told?”",
+            "questionDesc": "You seek silenced voices and hidden stories.",
+            "idealWorldTitle": "Ideal World",
+            "idealWorldDesc": "A world where empathy is a common language and every story is honoured and heard equally."
+            },
+            "element": {
+            "title": "Element",
+            "name": "Aether",
+            "desc": "space, memory, and the unseen, a subtle dimension beyond direct touch"
+            },
+            "superpower": {
+            "title": "Superpower",
+            "subTitle": "Superpower",
+            "name": "Resonance Thread",
+            "desc": "A magic spell that weaves all stories with people’s hearts, embracing sorrow and grief to tailor a shining hope anew. You find the “heart” of every issue and make it feel personal."
+            },
+            "strengths": {
+            "title": "Strengths",
+            "narrativeDesc": "Deep emotional insight and compelling storytelling.",
+            "example": "Example:",
+            "narrativeEx": "Instead of citing homelessness statistics or raw data, you tell one person’s story, creating greater emotional impact than hundreds of data points.",
+            "empathyTitle": "Emotional Connection",
+            "empathyDesc": "You make distant, complex issues feel personal.",
+            "listenerTitle": "Deep Listening",
+            "listenerDesc": "You listen to others not with your ears, but your heart, so people trust you and open up to you."
+            },
+            "growth": {
+            "title": "Growth Edge",
+            "weaknessTitle": "Immersion Without Action",
+            "weaknessDesc": "You may focus so deeply on stories that execution is neglected.",
+            "example": "Example:",
+            "weaknessEx": "You craft a powerful story but don’t plan how it will drive concrete change.",
+            "adviceTitle": "Advice",
+            "adviceDesc": "Your stories are your greatest weapon. Partner with The Architect to build strategy and impact upon the real world."
+            },
+            "skills": {
+            "title": "Skills Graph"
+            },
+            "alliance": {
+            "title": "Alliance",
+            "idealTitle": "Ideal Allies",
+            "seederDesc": "You amplify their quiet work; they provide you with a stable space for your creative work.",
+            "guardianDesc": "Provides emotional safety so you can tell fragile stories fully; you help tend to the team’s emotional wounds.",
+            "cautionTitle": "Caution with",
+            "architectDesc": "You may see them as cold and overly statistical; they may see you as overly emotional.",
+            "flameDesc": "Your nuance may clash with their bluntness, resulting in miscommunication."
+            },
+            "environment": {
+            "title": "Ideal Environment",
+            "shineTitle": "You thrive in",
+            "shineDesc": "speechwriting, documentaries, in-depth interviews, art therapy, and story-driven branding.",
+            "questionTitle": "Reflection Question",
+            "questionDesc": "Whose story in society has never been heard—and how will you make it resonate?"
+            },
+            "role": {
+            "title": "Roles & Careers in Movements",
+            "name": "The Echo",
+            "desc": "drives change through narrative and communication.",
+            "commonTitle": "Common Roles",
+            "list": [
+                "• Testimony & documentation officer",
+                "• Narrative strategist",
+                "• Human rights researcher (survivor interviews)",
+                "• Content & communications writer",
+                "• Arts-based activist (theatre, film, poetry, music)",
+                "• Copywriter / creative director",
+                "• Investigative or documentary journalist"
+            ]
+            }
+        },
+        "endcard-the_guardian": {
+            "title": "You are...",
+            "shareBtn": "Download and Share",
+            "shareVoice": "Share your voice!",
+            "sharePrompt": "Share your End card on social now!",
+            "viewReports": "View full reports",
+            "rankingTitle": "Top 3 identities",
+            "reportTitle": "In-depth Analysis Report",
+            "characterName": "The Guardian",
+            "quote": "\"Soft Heart, Strong Shield!\"",
+            "identity": {
+            "title": "Core Identity",
+            "descTitle": "Identity Description",
+            "desc": "You are the armour of the movement—defined by responsibility and sacrifice. You believe real change cannot happen if people do not feel safe. You tend to wounds ",
+            "questionTitle": "Guiding Question",
+            "question": "“Who needs protection?”",
+            "questionDesc": "You always look for the most vulnerable and reach out to them first.",
+            "idealWorldTitle": "Ideal World",
+            "idealWorldDesc": "A world where everyone feels safe, physically and emotionally, and where the most vulnerable are cared for first."
+            },
+            "element": {
+            "title": "Element",
+            "name": "Water",
+            "desc": "nurturing, soothing, and healing. It flows around obstacles, absorbs impact, and creates safe spaces."
+            },
+            "superpower": {
+            "title": "Superpower",
+            "subTitle": "Superpower",
+            "name": "Safeguard Barrier",
+            "desc": "A strong barrier that is able to repel every threat, protecting all that matters whether people, spaces, or emotions. It may appear as a visible energy shield or as a pervasive sense of safety and trust."
+            },
+            "strengths": {
+            "title": "Strengths",
+            "safeguardDesc": "Reliable and highly responsible; a pillar of safety.",
+            "example": "Example:",
+            "safeguardEx": "During intense internal conflict, you step in as mediator, setting ground rules so the conversation can resume peacefully.",
+            "calmTitle": "Calm Under Pressure",
+            "calmDesc": "While others panic, you stay composed and think systematically, being the team’s anchor.",
+            "loyalTitle": "Strong Loyalty",
+            "loyalDesc": "You will never betray your team or ideals and will protect them to the end."
+            },
+            "growth": {
+            "title": "Growth Edge",
+            "weaknessTitle": "Over-Defensiveness",
+            "weaknessDesc": "Excessive focus on safety may lead you to reject high-risk, high-reward plans.",
+            "example": "Example:",
+            "weaknessEx": "You may oppose the Flame’s infiltration plan, even if it’s the only chance of success, because it feels too dangerous.",
+            "adviceTitle": "Advice",
+            "adviceDesc": "Safety matters, but so does growth. Trust the Architect’s plan and your teammates’ abilities. Let them take risks while you stand ready as the strongest backup."
+            },
+            "skills": {
+            "title": "Skills Graph"
+            },
+            "alliance": {
+            "title": "Alliance",
+            "idealTitle": "Ideal Allies",
+            "seederDesc": "You protect the seedlings the Seeder plants, making long-term growth possible.",
+            "architectDesc": "You ensure the Architect’s complex plans are executed safely and solidly.",
+            "cautionTitle": "Caution with",
+            "flameDesc": "You may see the Flame as reckless; the Flame may see you as fearful. Balance courage and safety.",
+            "sparkDesc": "You value order and routine; Spark thrives on chaos and novelty, which you may see as unnecessary risks."
+            },
+            "environment": {
+            "title": "Ideal Environment",
+            "shineTitle": "You thrive in",
+            "shineDesc": "risk management, crowd safety, emotional support, and emergency preparedness.",
+            "questionTitle": "Reflection Question",
+            "questionDesc": "Who in your team feels most vulnerable right now, and how can you create a truly safe space for them?"
+            },
+            "role": {
+            "title": "Roles & Careers in Movements",
+            "name": "The Guardian",
+            "desc": "often works behind the scenes, focused on care, security, and stability.",
+            "commonTitle": "Common Roles",
+            "list": [
+                "• Protection & security officer (field, activist protection)",
+                "• Security coordinator for human rights defenders",
+                "• Social worker supporting survivors (sexual violence, refugees, torture survivors)",
+                "• Well-being and support program manager",
+                "• Emergency response coordinator",
+                "• HR/operations roles focused on organisational safety culture"
+            ]
+            }
+        },
+        "endcard-the_seeder": {
+            "title": "You are...",
+            "shareBtn": "Download and Share",
+            "shareVoice": "Share your voice!",
+            "sharePrompt": "Share your End card on social now!",
+            "viewReports": "View full reports",
+            "rankingTitle": "Top 3 identities",
+            "reportTitle": "In-depth Analysis Report",
+            "characterName": "The Seeder",
+            "quote": "\"Good Things Grow Slow.\"",
+            "identity": {
+            "title": "Core Identity",
+            "descTitle": "Identity Description",
+            "desc": "You are a change-maker who believes in slow, steady growth like a great tree. You avoid flashy wins and instead build strong foundations for future generations. Your patience and dedication quietly support everyone’s success.",
+            "questionTitle": "Guiding Question",
+            "question": "“What needs to be cultivated?”",
+            "questionDesc": "You search for hidden potential and nurture it over time.",
+            "idealWorldTitle": "Ideal World",
+            "idealWorldDesc": "A self-renewing society where healing, care, and sustainability matter more than quick fixes."
+            },
+            "element": {
+            "title": "Element",
+            "name": "Earth",
+            "desc": "foundation, solidity, stability. Combined with Wood — growth, branching, and regeneration"
+            },
+            "superpower": {
+            "title": "Superpower",
+            "subTitle": "Superpower",
+            "name": "Sprout Sparkle",
+            "desc": "A small seed holding vast growth potential, sprouting into a tiny sapling that blooms a new opportunity for future. The impact isn’t immediate, but it plants change that spreads across the world over time."
+            },
+            "strengths": {
+            "title": "Strengths",
+            "cohesionDesc": "Patient and detail-oriented; builds strong foundations through wise resource use.",
+            "example": "Example:",
+            "cohesionEx": "While others plan protests, you build support networks, secure supplies, and form community relationships for long-term sustainability.",
+            "visionTitle": "Long-Term Vision",
+            "visionDesc": "You understand that real change takes time and remain steady despite setbacks.",
+            "unityTitle": "Unity Builder",
+            "unityDesc": "You bring diverse talents together into effective collaboration."
+            },
+            "growth": {
+            "title": "Growth Edge",
+            "weaknessTitle": "Conflict Avoidance",
+            "weaknessDesc": "Discomfort with confrontation may cause hesitation in necessary moments.",
+            "example": "Example:",
+            "weaknessEx": "You may notice a team problem but stay silent to avoid conflict, allowing it to worsen later.",
+            "adviceTitle": "Advice",
+            "adviceDesc": "Your calm is a strength, but confrontation is sometimes necessary. Let the Echo help communicate sensitive issues, or allow the Flame to confront while you support from behind."
+            },
+            "skills": {
+            "title": "Skills Graph"
+            },
+            "alliance": {
+            "title": "Alliance",
+            "idealTitle": "Ideal Allies",
+            "guardianDesc": "Protects the foundations you build from storms of threats and attacks.",
+            "echoDesc": "Amplifies your quiet work, helping the world see its value.",
+            "cautionTitle": "Caution with",
+            "flameDesc": "You may see the Flame as shortsighted; the Flame may see you as too slow and tedious.",
+            "sparkDesc": "You prioritise depth and sustainability; Spark prioritises speed and trends, which may cause a contrast in workflow."
+            },
+            "environment": {
+            "title": "Ideal Environment",
+            "shineTitle": "You thrive in",
+            "shineDesc": "community development, long-term planning, organisational culture-building, sustainable resource management, and mentorship.",
+            "questionTitle": "Reflection Question",
+            "questionDesc": "What “seed of change” are you planting right now—and what kind of water, soil, and sunlight does it need to grow strong?"
+            },
+            "role": {
+            "title": "Roles & Careers in Movements",
+            "name": "The Seeder",
+            "desc": "works in long-term vision, education, and foundational initiatives.",
+            "commonTitle": "Common Roles",
+            "list": [
+                "• Human rights educator / trainer",
+                "• Sustainability & development project manager",
+                "• Community organiser (long-term empowerment)",
+                "• Campaign researcher (long-term issues such as death penalty or refugee rights)",
+                "• NGO worker in environment or development",
+                "• Capacity-building specialist"
+            ]
+            }
+        }
+          
+}

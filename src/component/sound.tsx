@@ -8,11 +8,15 @@ import AudioPlayer from "./audio_player";
 
 const Sounds = () => {
   const path = usePathname();
-  const page = path.split("/")[1]!;
+  const page = path.split("/")[2]!;
   const defaultBackingTrackVolume = 0.75;
   const defaultSoundEffectVolume = 0.3;
-  const scene = page.split("-")[0] as keyof typeof scenePageMap;
-
+  let scene = '1' as keyof typeof scenePageMap
+  if (page) {
+    scene = page.split("-")[0] as keyof typeof scenePageMap;
+  } 
+  
+  
   const [backingTrackSound, setBackingTrackSound] = useState<string>();
   const [backingTrackVolume, setBackingTrackVolume] = useState<number>(
     defaultBackingTrackVolume,

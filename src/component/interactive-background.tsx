@@ -8,7 +8,7 @@ import { usePathname, useRouter } from "next/navigation";
 const InteractiveBackground = () => {
   const path = usePathname();
   const router = useRouter();
-  const page = path.split("/")[1] as keyof typeof backgroundMapConfig;
+  const page = path.split("/")[2] as keyof typeof backgroundMapConfig;
   const [bgImgSrc, setBgImgSrc] = useState<string>();
 
   useEffect(() => {
