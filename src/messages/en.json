@@ -32,7 +32,7 @@
         "next": "Next"
         },
     "1-4": {
-        "back": "Previuos",
+        "back": "Previous",
         "noOneRemembers": "No one knows exactly when ",
         "whenSilenceCame": "“The Silence” arrived,",
         "infiltrated": "but it slowly seeped into the city on the day",
@@ -41,15 +41,15 @@
         "next": "Next"
         },
     "1-5": {
-        "back": "Previuos",
+        "back": "Previous",
         "whisperPromise": "It whispered of the",
-        "peaceOrder": "\"Peace\" and \"orderliness\".",
+        "peaceOrder": "\"peace\" and \"orderliness\".",
         "yearning": "that people yearned for.",
         "peopleAccepted": "To end the discordance for good,",
         "next": "Next"
         },
     "1-6": {
-        "back": "Previuos",
+        "back": "Previous",
         "morning": "This morning… You woke up in the",
         "wokeUp": "same yet unfamiliar city.",
         "changed": "",
@@ -62,14 +62,14 @@
         "next": "Next"
         },
     "1-7": {
-        "back": "Previuos",
+        "back": "Previous",
         "butYou": "But you... You remember that this city used to",
         "rememberVoice": "be filled with the voices of its citizens.",
         "survivor": "You are one of the survivors...",
         "next": "Next"
         },
     "r-1": {
-        "back": "Previuos",
+        "back": "Previous",
         "readyToStart": "Are you ready for a journey to",
         "lastVoice": "search for the last ‘voice’ yet to",
         "alongTheWay": "During the journey, every decision of yours ",
@@ -79,7 +79,7 @@
         "next": "Next"
         },
     "r-2": {
-        "back": "Previuos",
+        "back": "Previous",
         "beforeMission": "Before the mission starts,",
         "knowYou": "please register your information.",
         "alias": "Alias",
@@ -112,7 +112,7 @@
     
         
     "2-1": {
-        "back": "Previuos",
+        "back": "Previous",
         "artistContact": "The next morning, an artist reaches out to you.",
         "wordsThought": "He says that your words made him realise that art ",
         "artNotDie": "shall never die.",
@@ -121,43 +121,43 @@
         "next": "Next"
         },
     "2-2": {
-        "back": "Previuos",
+        "back": "Previous",
         "drawSky": "“Today we’ll draw a sky with no rainclouds.”",
         "heSaid": "He says.",
         "next": "Next"
         },
     "3-1": {
-        "back": "Previuos",
+        "back": "Previous",
         "dipBrush": "But when he paints a bright blue stroke ",
         "next": "Next"
         },
     "3-2": {
-        "back": "Previuos",
+        "back": "Previous",
         "dipBrush": "But when he paints a bright blue stroke ",
         "fogAppears": "a dark mist gushes out from the nearby alley",
         "next": "Next"
         },
     "3-3": {
-        "back": "Previuos",
+        "back": "Previous",
         "theSilence": "The Silence",
-        "isHere": "has come.",
+        "isHere": "is here.",
         "next": "Next"
         },  
     "34-4": {
-        "back": "Previuos",
+        "back": "Previous",
         "tooLate": "But it's too late.",
         "kidnapped": "The Silence has already taken your friend.",
         "next": "Next"
         },
     "4-1": {
-    "back": "Previuos",
+    "back": "Previous",
     "timePlace": "3 hours later - the underground tunnel",
     "wakeUp": "You wake up on a cold stone floor with a slight ",
     "hand": "bruise on your head and a scratch on your left hand.",
     "next": "Next"
     },
     "41-3": {
-        "back": "Previuos",
+        "back": "Previous",
         "iHeard": "“I’m getting a new message!” ",
         "nextPlan": "Someone raises their communicative",
         "silenceRelease": "The Silence is going to release a ",
@@ -168,7 +168,7 @@
         "next": "Next"
         },
     "41-4": {
-        "back": "Previuos",
+        "back": "Previous",
         "16hours": "16 hours before the mission",
         "knowPlan": "The Silence catches on to your plan.",
         "whisper": "Amidst the flowing Mist, “whispers” carry through.",
@@ -177,7 +177,7 @@
         "next": "Next"
         },
     "4-2": {
-        "back": "Previuos",
+        "back": "Previous",
         "lookAround": "You look around and see about 7-8 people",
         "welcome": "An old man speaks up, ",
         "voiceOldMan": "“Welcome to ‘The Underground’.”",
@@ -188,29 +188,29 @@
         "next": "Next"
         },
     "5-1": {
-        "back": "Previuos",
+        "back": "Previous",
         "morningNext": "The next morning",
         "distance": "500 meters from the Tower"
         },
     "5-2": {
-        "back": "Previuos",
+        "back": "Previous",
         "stronger": "Everyone feels uplifted once again.",
         "destination": "But when you arrive at the destination...",
         "trap": "You see traps much more complex than what ",
         "next": "Next"
         },
     "5-3": {
-        "back": "Previuos"
+        "back": "Previous"
         },
     "7-1": {
-        "back": "Previuos",
+        "back": "Previous",
         "destroyed": "The Mind Tower is successfully destroyed. ",
         "fogGone": "The Mist of Silence has finally dissipated.",
         "success": "Your team succeeds.",
         "next": "Next"
         },
     "72-2": {
-        "back": "Previuos",
+        "back": "Previous",
         "sunlight": "Warm, gentle rays of sunlight slip through",
         "firstTime": "the clouds for the first time in weeks.",
         "cityAlive": "The city has become vibrant ",
@@ -232,7 +232,7 @@
         "next": "Next"
         },
     "9-1": {
-        "back": "Previuos",
+        "back": "Previous",
         "amidstJoy": "But amidst the voices of happiness...",
         "silentTruth": "You can feel the silent truth within.",
         "notGone": "The truth that The Silence hasn’t vanished.",
@@ -242,7 +242,7 @@
         "next": "Next"
         },
     "9-2": {
-        "back": "Previuos",
+        "back": "Previous",
         "amidstJoy": "But amidst the voices of happiness...",
         "silentTruth": "You can feel the silent truth within.",
         "notGone": "The truth that The Silence hasn’t vanished.",
@@ -252,7 +252,7 @@
         "next": "Next"
         },
     "10-1": {
-        "back": "Previuos",
+        "back": "Previous",
         "dream": "What you saw before you passed out wasn’t ",
         "unfinished": "only a made-up memory,",
         "hope": "but it was an unfulfilled mission",
@@ -263,7 +263,7 @@
         "seeResult": "See Results"
         },            
     "Q1": {
-        "back": "Previuos",
+        "back": "Previous",
         "questionLine1": "What is the first “vision” that ignites",
         "questionLine2": "the righteous flame within you?",
         "choiceA_1": "The vision of the innocent being silenced in ",
@@ -274,7 +274,7 @@
         "choiceC_2": "an empty future."
     },
     "Q2": {
-        "back": "Previuos",
+        "back": "Previous",
         "whyYou": "WHY must you fight? and why NOW? ",
         "whyNow": "Which thoughts resonate with your heart ",
         "heartBeat": "most?",
@@ -287,7 +287,7 @@
         "choiceC_2": "it’ll just repeat and worsen.”"
       },
       "Q3": {
-        "back": "Previuos",
+        "back": "Previous",
         "powerNotEnough": "You know well that your power alone isn’t enough. ",
         "wakePeople": "To find comrades, you must encourage the people ",
         "howToUnite": "to join in the revolution. How will you do it?",
@@ -299,7 +299,7 @@
         "choiceC_2": "with an impressive emotional speech."
       },
       "Q4": {
-        "back": "Previuos",
+        "back": "Previous",
         "fogMoving": "The mist is lunging at your friend. ",
         "whatToDo": "What will you do?",
         "choiceA_1": "Create a barrier",
@@ -310,7 +310,7 @@
         "choiceC_2": ""
       },
       "Q5": {
-        "back": "Previuos",
+        "back": "Previous",
         "friendTaken": "The sight of your artist friend being",
         "stuckInHead": "taken away is still so vivid in your mind.",
         "anger": "stir in your chest. You decide to...",
@@ -323,7 +323,7 @@
         "choiceC_3": ""
       },
       "Q6": {
-        "back": "Previuos",
+        "back": "Previous",
         "atmosphere": "People in the tunnel have only briefly",
         "strangers": "known each other. ",
         "approach": "How will you approach them?",
@@ -336,7 +336,7 @@
         "choiceC_3": ""
       },
       "Q7": {
-        "back": "Previuos",
+        "back": "Previous",
         "peopleTalk": "Your approach breaks the ice for all the people.",
         "everyoneShare": "That night, they exchange their stories ",
         "resistSilence": "and encounters with The Silence.",
@@ -355,7 +355,7 @@
         "choiceC_4": "“children are the strongest gears to push the world forward.”"
       },
       "Q8": {
-        "back": "Previuos",
+        "back": "Previous",
         "missionBig": "This mission is big and extremely ",
         "splitRoles": "important. Everyone will be assigned ",
         "whatRole": "a task. Which do you pick?",
@@ -367,7 +367,7 @@
         "choiceC_2": "allies, inform and encourage all people in the city"
       },
       "Q9": {
-        "back": "Previuos",
+        "back": "Previous",
         "whatWords": "Which words of The Silence ",
         "shakeYou": "that shaken your core the most?",
         "choiceA_1": "“Your actions are futile. ",
@@ -377,7 +377,7 @@
         "choiceC_1": "“Once you harbour no significance to these"
       },
       "Q10": {
-        "back": "Previuos",
+        "back": "Previous",
         "teamDiscouraged": "Your allies begin to feel discouraged. ",
         "whatToSay": "What will you say to cheer them up?",
         "choiceA_1": "“Don’t listen to it! It’s doing this because it’s ",
@@ -388,7 +388,7 @@
         "choiceC_2": "it, we’ll lose. Hang in there, you can do it.”"
       },
       "Q11": {
-        "back": "Previuos",
+        "back": "Previous",
         "robots": "There are 15 security bots, laser walls, and ",
         "laser": "magnetic gates.",
         "timeLeft": "You only have 30 minutes left. ",
@@ -398,7 +398,7 @@
         "choiceC_1": "“Hold on… "
       },
       "Q12": {
-        "back": "Previuos",
+        "back": "Previous",
         "finalMoment": "In the last glimpse of conscience, the ",
         "vision": "vision of the future pops up in your mind...",
         "whatYouSee": "What do you see?",
@@ -410,7 +410,7 @@
         "choiceC_2": "running joke among the people"
       },
       "Q13": {
-        "back": "Previuos",
+        "back": "Previous",
         "reflection": "The vision reflects your very “core,” but ",
         "trueSelf": "what about yourself? How do you want to",
         "whatHero": "be remembered?",
