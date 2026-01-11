@@ -9,10 +9,11 @@ import YellowButtonSemibold from "~/component/yellow_button_semibold";
 import YellowButton from "~/component/yellow_button";
 import { useEffect, useRef, useState } from "react";
 import Ranking from "~/component/ranking";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import LangToggle from "~/component/lang_toggle";
 
 export default function Page() {
+    const locale = useLocale();
     const t = useTranslations("endcard-the_echo");
     
     // --- Logic คำนวณคะแนน ---
@@ -74,7 +75,7 @@ export default function Page() {
     };
     const shareImage = async () => {
         try {
-            const response = await fetch("/img/sharable_the_echo.webp");
+            const response = await fetch(`/img/sharable_the_echo_${locale}.webp`);
             const blob = await response.blob();
             const file = new File([blob], "sharable_the_echo.webp", { type: blob.type });
             if (navigator.canShare && navigator.canShare({ files: [file] })) {
@@ -114,7 +115,7 @@ export default function Page() {
 
                 <motion.div className="flex flex-row h-[200px] w-full bg-white border-[3px] border-black rounded-[4px]">
                     <motion.div className="flex flex-col w-[120px] items-center">
-                        <Image src="/img/sharable_the_echo.webp" height={142} width={100} alt="end card" ref={exportedRef} id="sharable_result" 
+                        <Image src={`/img/sharable_the_echo_${locale}.webp`} height={142} width={100} alt="end card" ref={exportedRef} id="sharable_result" 
                         className="absolute object-cover border-[1px] border-black my-[10px] " />
                     </motion.div>
                     <motion.div className="flex flex-col flex-1 py-[20px] px-[10px] h-full w-full content-center z-20 gap-y-[5px]">
@@ -153,7 +154,7 @@ export default function Page() {
             <div className="w-full flex flex-col items-center bg-[#F0F0F0] px-[20px] pb-[30px]">
                 <div className="w-full flex flex-col items-center bg-[#FFFFFF] border-[2px] border-[#0A0A0A] mt-[40px] my-[10px] rounded-[5px]">
                     <h1 className="text-[16px] w-full py-[10px] mb-[20px] font-semibold bg-[#000000] text-white text-center">{t("rankingTitle")}</h1>
-                    <Ranking first={first} second={second} third={third} />
+                    <Ranking first={first} second={second} third={third} locale={locale}/>
                 </div>
             </div>
 
@@ -263,7 +264,7 @@ export default function Page() {
                          <div className="flex flex-col gap-x-[5px] pt-[20px]">
                             <h1 className="text-[16px] text-[#0A0A0A] align-middle">{t("skills.title")}</h1>
                             <div className="flex items-center justify-center w-full h-[350px]">
-                                <Image src="/img/skill_graph_the_echo.webp" width={309} height={309} alt="skill" className="object-cover mt-[40px]" />
+                                <Image src={`/img/skill_graph_the_echo_th.webp`} width={309} height={309} alt="skill" className="object-cover mt-[40px]" />
                             </div>
                         </div>
                     </div>
