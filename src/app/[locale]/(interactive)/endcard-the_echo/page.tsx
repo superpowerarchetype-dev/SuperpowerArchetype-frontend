@@ -263,9 +263,16 @@ export default function Page() {
                     <div className="px-[20px] bg-white">
                          <div className="flex flex-col gap-x-[5px] pt-[20px]">
                             <h1 className="text-[16px] text-[#0A0A0A] align-middle">{t("skills.title")}</h1>
-                            <div className="flex items-center justify-center w-full h-[350px]">
-                                <Image src={`/img/skill_graph_the_echo_th.webp`} width={309} height={309} alt="skill" className="object-cover mt-[40px]" />
-                            </div>
+                            { locale === 'th' &&
+                                    <div className="flex items-center justify-center w-full h-[350px]">
+                                        <Image src={`/img/skill_graph_the_echo_${locale}.webp`} width={309} height={309} alt="skill" className="object-cover mt-[40px]" /> 
+                                    </div>
+                            }
+                            { locale === 'en' &&
+                                <div className="flex items-center justify-center w-full h-[350px]">
+                                    <Image src={`/img/skill_graph_the_echo_${locale}.webp`} width={309} height={309} alt="skill" className="object-cover " /> 
+                                </div>
+                            }
                         </div>
                     </div>
                 </div>

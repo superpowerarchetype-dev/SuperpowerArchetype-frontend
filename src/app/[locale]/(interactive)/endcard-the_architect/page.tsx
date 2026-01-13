@@ -267,7 +267,7 @@ export default function Page() {
                             }
                             { locale === 'en' &&
                                 <div className="flex items-center justify-center w-full h-[350px]">
-                                    <Image src={`/img/skill_graph_the_architect_th.webp`} width={309} height={309} alt="skill" className="object-cover mt-[40px]" /> 
+                                    <Image src={`/img/skill_graph_the_architect_${locale}.webp`} width={309} height={309} alt="skill" className="object-cover " /> 
                                 </div>
                             }
                         </div>
