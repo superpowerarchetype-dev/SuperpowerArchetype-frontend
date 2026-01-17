@@ -8,7 +8,7 @@ type ArchetypeKey =
   | "the_echo"
   | "the_architect";
 
-export default function Ranking({first,second,third}:{first:string,second:string,third:string}){
+export default function Ranking({first,second,third,locale}:{first:string,second:string,third:string,locale:string}){
     console.log(first,second,third)
     const mapText = {
         "the_flame" : ["นักสู้" , "Flame"],
@@ -19,13 +19,21 @@ export default function Ranking({first,second,third}:{first:string,second:string
         "the_architect" : ["นักวางกลยุทธ" , "Architect"],
 
     }
-    const firstText1 = mapText[first as ArchetypeKey]?.[0] ?? "";
-    const secondText1 = mapText[second as ArchetypeKey]?.[0] ?? "";
-    const thirdText1 = mapText[third as ArchetypeKey]?.[0] ?? "";
+    const mapTextEng = {
+        "the_flame" : ["The Fighter" , "Flame"],
+        "the_guardian" : ["The Protector" , "Guardian"],
+        "the_seeder" : ["The Sustainer" , "Seeder"],
+        "the_spark" : ["The Amplifier" , "Spark"],
+        "the_echo" : ["The Storyteller" , "Echo"],
+        "the_architect" : ["The Strategist" , "Architect"],
+    }
+    const firstText1 = locale === 'th' ? mapText[first as ArchetypeKey]?.[0] ?? "" : mapTextEng[first as ArchetypeKey]?.[0] ?? "";
+    const secondText1 = locale === 'th' ? mapText[second as ArchetypeKey]?.[0] ?? "" : mapTextEng[second as ArchetypeKey]?.[0] ?? "";
+    const thirdText1 = locale === 'th' ? mapText[third as ArchetypeKey]?.[0] ?? "" : mapTextEng[third as ArchetypeKey]?.[0] ?? "";
 
-    const firstText2 = mapText[first as ArchetypeKey]?.[1] ?? "";
-    const secondText2 = mapText[second as ArchetypeKey]?.[1] ?? "";
-    const thirdText2 = mapText[third as ArchetypeKey]?.[1] ?? "";
+    const firstText2 = locale === 'th' ? mapText[first as ArchetypeKey]?.[1] ?? "" : mapTextEng[first as ArchetypeKey]?.[1] ?? "";
+    const secondText2 = locale === 'th' ? mapText[second as ArchetypeKey]?.[1] ?? "" : mapTextEng[second as ArchetypeKey]?.[1] ?? "";
+    const thirdText2 = locale === 'th' ? mapText[third as ArchetypeKey]?.[1] ?? "" : mapTextEng[third as ArchetypeKey]?.[1] ?? "";
     return (
         <div className="relative flex items-center justify-center h-[200px] w-[400px]">
             <Image
